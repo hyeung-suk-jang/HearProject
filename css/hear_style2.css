@@ -1,0 +1,1514 @@
+.vertiInfo p{display:inline-block; position:relative; padding-right:10px; margin-right:8px;}
+.vertiInfo p:after{content:''; display:block; position:absolute; right:0; top:1px; width:1px; height:14px; background:#d6d5d3;}
+.vertiInfo p:last-child:after{display:none;}
+
+/* lab 상세페이지 */
+.surveyTable{padding:30px 0 0; border-top:1px solid #e5e5e5;}
+.surveyTable .list{margin-bottom:20px;}
+.surveyTable .list .chkType2{display:inline-block; margin-left:17px; vertical-align:middle;}
+.surveyTable .list .chkArea .chkType2:first-child{margin-left:0;}
+.surveyTable .list .radioType1 p:first-child label{margin-left:0;}
+.surveyTable .list .tit{font-family:'HyundaiSansTextKRMedium', sans-serif; color:#000;}
+.surveyTable .list .tit p{display:inline-block; margin-left:7px; color:#919191;}
+.surveyTable .list .con span.text{margin-left:8px;}
+.surveyTable .list .con span.notiTxt{margin-left:20px; color:#777;}
+.surveyTable .list .con textarea{width:100%; height:200px; resize:none;}
+.surveyTable .list .con .periodSel:after{content:''; display:block; clear:both;}
+.surveyTable .list .con .periodSel:last-child{margin-top:10px;}
+.surveyTable .periodTxt{margin-left:15px; line-height:50px;}
+.surveyTable .list .con .periodSel .yearSel{float:left;}
+.surveyTable .list .con .periodSel .yearSel select{margin-right:6px;}
+.surveyTable .list .con .periodSel.hasTime .yearSel select:last-child{margin-right:0;}
+.surveyTable .list .con .periodSel.hasTime .timeSel{float:left; margin-left:40px;}
+.surveyTable .list .con .periodSel.hasTime .timeSel select:first-child{margin-right:6px;}
+.surveyTable .list .con .periodSel.hasTime span{float:left; margin-left:15px; line-height:50px;}
+.surveyTable .list .tableType2{clear:both;}
+.surveyTable .list.float .tit{float:left; width:133px; line-height:22px;}
+.surveyTable .list.float .con{float:left; width:calc(100% - 133px);}
+.surveyTable .list.float .con .txt{line-height:22px;}/* 2020-02-25 추가 */
+.surveyTable .list.float .con .txtLimit{position:relative;}
+.surveyTable .list.float .con .txtLimit input{padding-right:60px;}
+.surveyTable .list.float .con .txtLimit .count{position:absolute; right:20px; top:50%; -webkit-transform:translateY(-50%); transform:translateY(-50%); color:#000;}
+.surveyTable .list.float .con .inputT{display:inline-block; padding-left:10px;}/* 2020-02-25 추가 */
+.surveyTable .list.float.hasBox .tit{margin-top:14px;}
+.surveyTable .list.float.hasTable .tit{margin-top:6px; margin-bottom:27px;}
+.surveyTable .list:last-child{margin-bottom:0;}
+.surveyTable .list:after{content:''; display:block; clear:both;}
+.surveyTable .list.largeMt{margin-top:30px;}
+.surveyTable .list.largeMt .tit{margin-bottom:20px;}
+.surveyTable .borderDiv {margin-top:40px; padding:30px 0; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5;}
+.surveyTable .borderDiv .list.float .tit {margin-top:0; line-height:22px;}
+.surveyTable .borderDiv2{margin-top:30px; padding:30px 0; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5;}/* 2020-02-25 추가 */
+.surveyTable .attachArea.box{margin-top:20px; padding:40px 30px; border:1px solid #e5e5e5;}
+.surveyTable .attachArea.box .tit{font-size:16px; line-height:35px; margin:0 20px 0 0;}
+.surveyTable .attachArea.box .tit .grayT{color:#777;}
+/* 2020-01-15 추가 */
+.surveyTable .list.temListType .radioType1 p{margin-right:42px;}
+.surveyTable .list.temListType .radioType1 p:last-child{margin-right:0;}
+.surveyTable .list.temListType .selectBox{margin-top:10px;}
+.surveyTable .list.temListType .selectBox select{width:100%; padding-right:40px;}
+.surveyTable .list.temListType .selectBox select option{padding:5px 0}
+.surveyTable .list.temListType .temCon{display:none;}
+.surveyTable .list.temListType .temCon.on{display:block;}
+.surveyTable .list.temListType .temTxtBox{width:100%; height:120px; margin-top:10px; padding:15px 20px; border:1px solid #e5e5e5; overflow-y:auto;}
+.surveyTable .list.temListType .temTxtBox .dotTxt{position:relative; padding-left:14px; font-size:16px; color:#555; line-height:26px;}
+.surveyTable .list.temListType .temTxtBox .dotTxt:after{content:''; display:block; position:absolute; top:10px; left:0; width:4px; height:4px; border-radius:50%; background:#002c5f;}
+.surveyTable .list.temListType .temTxtBox.type2{height:157px; padding:0;}
+.surveyTable .list.temListType .temTxtBox.type2 textarea{width:100%; height:100%; padding:15px 20px; border:0;}
+/* // 2020-01-15 추가 */
+.surveyTable.result {padding:0;}
+.surveyTable.result .list {margin-bottom:0; padding:26px 0; border-bottom:1px solid #e5e5e5;}
+.surveyTable.result > .list.float .tit {width:140px;}
+.surveyTable.result > .list.float .con {width:calc(100% - 140px);}
+.surveyTable.result > .list.float .con .txt {line-height:22px;}
+.surveyTable.result > .list.hasTable {padding:30px 0 10px;}
+.surveyTable.result > .list.hasTable .tableType2 {margin-bottom:30px;}
+.surveyTable.result > .list.hasTable .tit {margin-bottom:20px;} 
+.surveyTable.result > .list.float .con .inputArea.float:after {content:""; display:block; clear:both;}
+.surveyTable.result > .list.float .con .inputArea.float .selectDiv {float:left; margin-right:10px; width:200px;}
+.surveyTable.result > .list.float .con .inputArea.float .selectDiv select {width:100%;}
+.surveyTable.result > .list.float .con .inputArea.float .inputDiv {float:left; width:525px;}
+.surveyTable.result > .list.float .con .inputArea.float .inputDiv input {width:calc(100% - 85px); vertical-align:top;}
+.surveyTable.result > .list.float .con .inputArea.float .inputDiv .grayBtn {margin-left:2px; padding:0 24px; width:auto; height:50px; line-height:50px;}
+.surveyTable.result .attachArea {padding-left:0;}
+.surveyTable.result .attachArea .tit {margin-right:0; width:140px;}
+.surveyTable.result .rschStep{padding:0 30px 60px; border-bottom:1px solid #e5e5e5;}
+.surveyTable.result .rschStep .qArea{margin-top:45px;}
+.surveyTable.result .rschStep .qArea:first-child{margin-top:35px;}
+.surveyTable.result .notiIcon{margin-top:20px;}
+.surveyTable.result.manage .rschStep .qArea .choOpt textarea{height:150px;}
+.topAreaDimd{display:none;}
+.topAreaDimd.color1, .labMenuArea.color1, .labInfo.color1{background:#000000;}
+.topAreaDimd.color2, .labMenuArea.color2, .labInfo.color2{background:#002c5f;}
+.topAreaDimd.color3, .labMenuArea.color3, .labInfo.color3{background:#a36b4f;}
+.topAreaDimd.color4, .labMenuArea.color4, .labInfo.color4{background:#00aad2;}
+.topAreaDimd.color5, .labMenuArea.color5, .labInfo.color5{background:#e63312;}
+.topAreaDimd.color6, .labMenuArea.color6, .labInfo.color6{background:#aacae6;}
+.topAreaDimd.color7, .labMenuArea.color7, .labInfo.color7{background:#e4dcd3;}
+.topAreaDimd.color8, .labMenuArea.color8, .labInfo.color8{background:#f6f3f2;}
+.labMenuArea.color6, .labMenuArea.color7, .labMenuArea.color8 {border-color:rgba(0,0,0,0.15);}
+.labMenuArea{position:relative; height:60px; text-align:right;  z-index:3;}
+.labMenuArea .inner {padding:20px 0; border-bottom:1px solid rgba(255,255,255,0.15);}
+.labMenuArea.color6 .inner, .labMenuArea.color7 .inner, .labMenuArea.color8 .inner {border-bottom:1px solid rgba(0,0,0,0.15);}
+
+
+/* 2019-08-14 추가 및 수정 */
+.labMenuArea .goListBtn{display:inline-block; position:relative; padding-left:33px; background:url(../images/back_to_lab_list.png) left center no-repeat;} 
+.labMenuArea .goListBtn .listBtn {color:#fff;}
+.labMenuArea .goListBtn .goListLinks {display:none; position:absolute; top:36px; right:0; max-width:200px; max-height:280px; padding:20px; background:#fff; border:1px solid #ddd}
+.labMenuArea .goListBtn .goListLinks > a {display:block; font-size:14px; line-height:24px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; text-align:left; text-indent:0}
+.labMenuArea.color6 .goListBtn, .labMenuArea.color7 .goListBtn, .labMenuArea.color8 .goListBtn {background-image:url("../images/back_to_lab_list_b.png");}
+.labMenuArea.color6 .goListBtn .listBtn, .labMenuArea.color7 .goListBtn .listBtn, .labMenuArea.color8 .goListBtn .listBtn {color:#000000;}
+/* //2019-08-14 추가 및 수정 */
+.labMenuArea .setBtn{display:inline-block; margin-left:20px; width:20px; height:20px; background:url(../images/lab_admin_setting_btn.png) 0 0 no-repeat; vertical-align:middle;}
+.labMenuArea.color6 .setBtn, .labMenuArea.color7 .setBtn, .labMenuArea.color8 .setBtn {background-image:url("../images/lab_admin_setting_btn_b.png");}
+.labMenuArea .headerTit{display:none;}
+.labInfo{position:relative;}
+.labInfo .topArea .inner:after{content:''; display:block; clear:both;}
+.labInfo .topArea .infoArea{overflow:hidden; padding:50px 0;}
+.labInfo .topArea .infoArea .imgArea{float:left; margin-right:30px; width:156px; height:144px; overflow:hidden;}
+.labInfo .topArea .infoArea .imgArea img {width:100%; height:100%;}
+.labInfo .topArea .infoArea .txtArea{float:left; width:calc(100% - 186px);}
+.labInfo .topArea .infoArea .txtArea .category{margin:0 0 17px; font-family:'HyundaiSansTextKRMedium', sans-serif;}
+.labInfo .topArea .infoArea .txtArea .category span{display:inline-block; margin-right:5px; padding:0 9px; height:26px; font-family:'HyundaiSansHeadKRRegular', sans-serif; color:#fff; font-size:15px; text-align:center; line-height:24px; border:1px solid rgba(255,255,255,0.5);}
+.labInfo .topArea .infoArea .txtArea .category span:last-child{margin-right:0;}
+.labInfo.color6 .topArea .infoArea .txtArea .category span, .labInfo.color7 .topArea .infoArea .txtArea .category span ,.labInfo.color8 .topArea .infoArea .txtArea .category span{color:#000; border-color:rgba(0,0,0,0.25);}
+.labInfo .topArea .infoArea .txtArea .tit{font-family:'HyundaiSansHeadKRMedium', sans-serif; color:#fff; font-size:32px;}
+.labInfo.color6 .topArea .infoArea .txtArea .tit, .labInfo.color7 .topArea .infoArea .txtArea .tit, .labInfo.color8 .topArea .infoArea .txtArea .tit{color:#000000;}
+.labInfo .topArea .infoArea .txtArea .txt{margin:25px 0; font-family:'HyundaiSansHeadKRRegular', sans-serif; color:rgba(255,255,255,0.5); font-size:18px;}
+.labInfo.color6 .topArea .infoArea .txtArea .txt, .labInfo.color7 .topArea .infoArea .txtArea .txt, .labInfo.color8 .topArea .infoArea .txtArea .txt{color:rgba(0,0,0,0.5);}
+.labInfo .topArea .infoArea .txtArea .bMarkBtn{display:inline-block; padding:0 26px 0 22px; background:#fff;}
+.labInfo .topArea .infoArea .txtArea .bMarkBtn span{padding-left:22px; font-family:'HyundaiSansHeadKRRegular', sans-serif; color:#000; font-size:15px; line-height:35px; background:url(../images/bmark_icon.png) left center no-repeat;}
+.labInfo .botArea{position:relative; padding:27px 0; background:rgba(0,0,0,0.2);}/* 2019-08-27 수정 */
+/* 2019-08-27 추가 */
+.labInfo .botArea .inner{position:relative;}
+.labInfo .botArea .schView.labSch{position:absolute; top:50%; right:0; transform:translateY(-50%);}
+/* // 2019-08-27 추가 */
+.labInfo.color6 .botArea, .labInfo.color7 .botArea, .labInfo.color8 .botArea{background:rgba(0,0,0,0.15);}
+.labInfo .botArea .memCount{padding-left:42px; font-family:'HyundaiSansTextKRRegular', sans-serif; color:#fff; background:url(../images/member_count_icon.png) left center no-repeat;}
+.labInfo .botArea .memCount span{font-family:'HyundaiSansTextKRBold', sans-serif;}
+.labInfo.color6 .botArea .memCount, .labInfo.color7 .botArea .memCount, .labInfo.color8 .botArea .memCount{color:#000; background-image:url("../images/member_count_icon_b.png");}
+/* 2020-03-05 임의추가 */ /*검토진행상태 카운팅*/
+.labInfo .botArea .revCount{font-family:'HyundaiSansTextKRRegular', sans-serif; color:#fff;}
+.labInfo .botArea .revCount .rev{border:1px solid #fff; margin-right:10px; padding:5px 9px; text-align:center;}
+.labInfo .botArea .revCount .num{font-family:'HyundaiSansTextKRBold', sans-serif; margin-left:5px;}
+.labInfo.color6 .botArea .revCount, .labInfo.color7 .botArea .revCount, .labInfo.color8 .botArea .revCount{color:#000;}
+.labInfo.color6 .botArea .revCount .rev, .labInfo.color7 .botArea .revCount .rev, .labInfo.color8 .botArea .revCount .rev{border:1px solid rgba(0, 0, 0, 0.25);}
+/* 2020-03-05 임의추가 */
+.labDetail{position:relative; width:1180px; margin:30px auto 0; z-index:1; background:#fff;}
+.labDetail:after{content:''; display:block; clear:both;}
+.labDetail .panelInfo{box-sizing:content-box; float:left; width:360px; padding-bottom:120px; background:#f6f3f2;}/* 2019-08-27 수정 */
+.labDetail .panelInfo .headArea{display:none;}
+.labDetail .panelInfo .bodyArea .panelProfile{padding:40px 0 35px; text-align:center; background:#f6f3f2;}
+.labDetail .panelInfo .bodyArea .panelProfile .img{position:relative; margin:0 auto; width:100px; height:90px; background:#fff;}
+.labDetail .panelInfo .bodyArea .panelProfile .img img{position:absolute; left:50%; top:50%; -webkit-transform:translate(-50%, -50%); transform:translate(-50%, -50%);}
+.labDetail .panelInfo .bodyArea .panelProfile .level{position:relative; width:100px; margin:0 auto 20px; height:36px; font-family:'HyundaiSansHeadKRRegular', sans-serif; color:#fff; font-size:18px; line-height:36px;}
+.labDetail .panelInfo .bodyArea .panelProfile .level.Hello{background:#aacae6;}
+.labDetail .panelInfo .bodyArea .panelProfile .level.Elite{background:#002c5f;}
+.labDetail .panelInfo .bodyArea .panelProfile .level.Ace{background:#00aad2;}
+.labDetail .panelInfo .bodyArea .panelProfile .level.Royal{background:#a36b4f;}
+.labDetail .panelInfo .bodyArea .panelProfile .level.Admin{background:#000000;}
+.labDetail .panelInfo .bodyArea .panelProfile .level .viewLevel{position:absolute; right:-10px; top:-10px; width:20px; height:20px; font-family:'HyundaiSansHeadKRMedium', sans-serif; color:#fff; font-size:14px; text-align:center; line-height:20px; background:#000; border-radius:50%;}
+.labDetail .panelInfo .bodyArea .panelProfile .name{font-family:'HyundaiSansHeadKRRegular', sans-serif; color:#000; font-size:20px;}
+.labDetail .panelInfo .bodyArea .myPoint{padding:25px 20px; font-family:'HyundaiSansHeadKRRegular', sans-serif; color:#000; background:#e4dcd3;}
+.labDetail .panelInfo .bodyArea .myPoint{overflow:hidden;}
+.labDetail .panelInfo .bodyArea .myPoint .tit{float:left;}
+.labDetail .panelInfo .bodyArea .myPoint .point{float:right;}
+.labDetail .panelInfo .bodyArea .myPoint .point span{margin-right:4px; font-family:'HyundaiSansHeadKRBold', sans-serif;}
+.labDetail .panelInfo .bodyArea .myPost{padding:30px 20px;}
+.labDetail .panelInfo .bodyArea .myPost .list{overflow:hidden; margin-top:20px; font-family:'HyundaiSansTextKRRegular', sans-serif;}
+.labDetail .panelInfo .bodyArea .myPost .list:first-child{margin-top:0;}
+.labDetail .panelInfo .bodyArea .myPost .list .tit{float:left;}
+.labDetail .panelInfo .bodyArea .myPost .list .sum{float:right;}
+.labDetail .panelInfo .bodyArea .myPost .list .sum span{font-family:'HyundaiSansTextKRBold', sans-serif; color:#000;}
+.labDetail .panelInfo .bodyArea .labList{position:relative; padding:0 20px;}
+.labDetail .panelInfo .bodyArea .labList > .list{position:relative;}
+.labDetail .panelInfo .bodyArea .labList > .list:first-child{border-top:1px solid #d6d5d4;}
+.labDetail .panelInfo .bodyArea .labList > .list .titArea{border-bottom:1px solid #d6d5d4;}
+/* 2019-08-27 수정 */
+.labDetail .panelInfo .bodyArea .labList > .list .titArea a:not(.blueBtn){display:inline-block; padding:22px 55px 22px 0; font-family:'HyundaiSansHeadKRMedium', sans-serif; color:#000; font-size:18px; line-height:20px;}
+.labDetail .panelInfo .bodyArea .labList > .list .titArea a:not(.blueBtn).hasList{padding:30px 55px 22px 0;}
+/* // 2019-08-27 수정 */
+.labDetail .panelInfo .bodyArea .labList > .list .titArea p:not(.blueBtn){display:inline-block; padding:22px 0; font-family:'HyundaiSansHeadKRMedium', sans-serif; color:#000; font-size:18px; line-height:20px;}
+.labDetail .panelInfo .bodyArea .labList > .list .titArea p:not(.blueBtn).hasList{padding:30px 0 22px;}
+.labDetail .panelInfo .bodyArea .labList > .list .titArea .blueBtn{margin-left:10px;}
+.labDetail .panelInfo .bodyArea .labList > .list.new .titArea a:not(.blueBtn):after{content:'N'; display:inline-block; margin-left:14px; font-family:'HyundaiSansHeadKRBold', sans-serif; color:#e63312; font-size:14px;}
+/* 07.08 결함 17번 임의추가  */
+.labDetail .panelInfo .bodyArea .labList > .list > .postList > .list.new:not(.blueBtn):after{content:'N'; display:inline-block; margin-left:14px; font-family:'HyundaiSansHeadKRBold', sans-serif; color:#e63312; font-size:14px;}
+/* 07.08 결함 17번 임의추가  */
+.labDetail .panelInfo .bodyArea .labList > .list .postList .list{display:block; padding:15px 0 15px 33px; line-height:24px; background:url(../images/dot_line_icon.png), url(../images/sub_post_icon.png); background-repeat:repeat-x, no-repeat; background-position:0 bottom, 10px center;}
+.labDetail .panelInfo .bodyArea .labList > .list .postList .list:last-child{background:url(../images/sub_post_icon.png) 10px center no-repeat; border-bottom:1px solid #d6d5d4;}
+.labDetail .panelInfo .bodyArea .labList .exnpandBtn{position:absolute; right:0; top:0; width:20px; height:30px; background:url(../images/lab_expand_btn.jpg) 0 0 no-repeat;}
+.labDetail .panelInfo .bodyArea .labList.on{position:relative; width:572px; background:#f6f3f2; z-index:1;}
+.labDetail .panelInfo .bodyArea .labList.on .exnpandBtn{transform:rotate(180deg);}
+.labDetail .panelInfo .bodyArea .labList.on > .list:first-child{border-top:none;}
+.labDetail .panelInfo .bodyArea .labList.on > .list:last-of-type a{border-bottom:none;}
+.labDetail .panelInfo .bodyArea .utilBtn.fArea{display:none;}
+.labDetail .panelInfo .bodyArea .btnWrap{margin-bottom:0;}
+.labDetail .panelInfo .xBtn{display:none;}
+.labDetail .panelInfo.fixed{position:fixed;}
+.labDetail .boardArea .rschStep {position:relative; margin-top:80px; padding-top:15px;}
+.labDetail .boardArea .rschStep .indicator {margin-top:0;}
+.labDetail .boardArea .rschStep .indicator .logo {font-size:22px;}
+.labDetail .boardArea .rschStep .qAreaWrap {margin-top:24px; padding:40px 30px; background:#f5f5f5;}
+.labDetail .boardArea .rschStep .qArea:first-child {margin-top:0}
+
+/* 2020-02-25 추가 */
+/* 설문게시판 상세 고급 페이지 하단 결과 리스트 */
+.btnWrap + .surveyListWrap{margin-top:80px;}
+.surveyListWrap{}
+.surveyListWrap .tabBtn{width:100%; margin-bottom:30px; border-bottom:1px solid #e5e5e5; text-align:center;}
+.surveyListWrap .tabBtn a{display:inline-block; position:relative; margin:0 30px; padding-bottom:15px; font-family:'HyundaiSansTextKRMedium', sans-serif;  font-size:18px; color:#555;}
+.surveyListWrap .tabBtn a:after{content:''; display:none; position:absolute; left:0; bottom:-1px; width:100%; height:4px; background:#00aad2; z-index:1;}
+.surveyListWrap .tabBtn a.on{color:#222}
+.surveyListWrap .tabBtn a.on:after{display:block;}
+.tableListArea .tableStyle1{margin-bottom:20px;}
+.tableListArea .tableStyle1 .pc{display:block;}
+.tableListArea .tableStyle1 .mobile{display:none;}
+.tableListArea .tableStyle1:last-child{margin-bottom:0;}
+.tableListArea .tableStyle1 table{width:100%;}
+.tableListArea .tableStyle1 table thead th{position:relative; padding:19px 0; vertical-align:middle; font-family:'HyundaiSansTextKRMedium', sans-serif; font-size:16px; color:#555; text-align:center; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; background:#f5f5f5;}
+.tableListArea .tableStyle1 table thead th:after{content:''; display:block; position:absolute; top:50%; transform:translateY(-50%); right:0; width:1px; height:20px; background:#d6d5d4;}
+.tableListArea .tableStyle1 table thead th:last-child:after{display:none;}
+.tableListArea .tableStyle1 table tbody th{padding:20px 10px; font-family:'HyundaiSansTextKRMedium', sans-serif; font-size:16px; color:#000; line-height:26px; text-align:center; border-bottom:1px solid #e5e5e5; background:#f5f5f5;}
+.tableListArea .tableStyle1 table tbody td{padding:20px; font-size:16px; color:#555; line-height:26px; text-align:center; border-bottom:1px solid #e5e5e5;}
+.tableListArea .tableStyle1 table td.taL{text-align:left;}
+.tableListArea .tableStyle1 table td.boldT{font-family:'HyundaiSansTextKRMedium', sans-serif; color:#000;}
+.tableListArea .tableStyle1 table td .tdBtn{display:inline-block;}
+.tableListArea .tableStyle1 table td .tdBtn a{display:inline-block; height:35px; padding:0 15px; font-size:16px; line-height:35px; color:#fff; background:#555;}
+.tableListArea .tableStyle1 table .space{padding:0; height:20px}
+/* // 2020-02-25 추가 */
+
+.labDetail .boardArea .rschStep .qArea .question {font-family:'HyundaiSansTextKRMedium', sans-serif;; font-size:16px; line-height:26px;}
+.labDetail .boardArea .rschStep .qArea .choOpt {margin-top:30px;}
+.labDetail .boardArea .rschStep .qArea .dotResult li p {font-size:16px; background:#f5f5f5;}
+.labDetail .boardArea .rschStep .btnWrap {position:absolute; top:0; right:0; margin-top:0;}
+.labDetail.manage .delArea{position:relative; height:81px; padding:28px 30px 0; background:#f6f3f2;}
+.labDetail.manage .delArea .tit{font-family:'HyundaiSansHeadKRRegular', sans-serif; color:#000; font-size:20px;}
+.labDetail.manage .delArea .delBtn{position:absolute; right:30px; top:30px; width:18px; height:21px; background:url(../images/delBtn_manage.png) 0 0 no-repeat;}
+.labDetail.manage .panelInfo{position:relative; padding-bottom:0; background:#fff; border:1px solid #e5e5e5;}
+.labDetail.manage .panelInfo .bodyArea .labList{margin-bottom:0; padding-bottom:50px;}
+.labDetail.manage .panelInfo .bodyArea .labList > .list{position:relative;}
+.labDetail.manage .panelInfo .bodyArea .labList > .list:after{content:''; display:block; clear:both;}
+.labDetail.manage .panelInfo .bodyArea .labList > .list .titArea{border-bottom:none;}
+.labDetail.manage .panelInfo .bodyArea .labList > .list .titArea:after{content:''; display:block; clear:both;}/* 2019-08-27 추가 */
+.labDetail.manage .panelInfo .bodyArea .labList > .list .titArea a:not(.blueBtn){border-bottom:1px solid #d6d5d4;}
+.labDetail.manage .panelInfo .bodyArea .labList > .list .titArea a:first-child{float:right; width:calc(100% - 38px);}
+.labDetail.manage .panelInfo .bodyArea .labList > .list .chkType2{position:absolute; left:0; top:50%; -webkit-transform:translateY(-50%); transform:translateY(-50%);}
+.labDetail.manage .panelInfo .bodyArea .labList > .list .boardKind{float:right; width:calc(100% - 38px); padding:35px 0 22px;}
+/* 2019-08-27 추가 */
+.labDetail.manage .panelInfo .bodyArea .labList > .list .listTitArea{position:relative; width:100%; }
+.labDetail.manage .panelInfo .bodyArea .labList > .list .arrowBtnD{position:absolute; top:50%; transform:translateY(-50%); right:0; overflow:hidden; }
+.labDetail.manage .panelInfo .bodyArea .labList > .list .arrowBtnD .arrowBt{display:block; float:left; width:24px; height:24px; border:1px solid #e5e5e5; background:url("../images/menu_admin_arrow_up1.png") center no-repeat #fff; overflow:hidden; text-indent:-9999px;}
+.labDetail.manage .panelInfo .bodyArea .labList > .list .arrowBtnD .arrowBt:last-child{border-left:0; background:url("../images/menu_admin_arrow_down1.png") center no-repeat #fff; }
+
+.labDetail.manage .panelInfo .bodyArea .labList > .list .arrowBtnD.type2 .arrowBt{display:block; float:left; width:21px; height:21px; border:1px solid #e5e5e5; background:url("../images/menu_admin_arrow_up2.png") center no-repeat #fff; overflow:hidden; text-indent:-9999px;}
+.labDetail.manage .panelInfo .bodyArea .labList > .list .arrowBtnD.type2 .arrowBt:last-child{border-left:0; background:url("../images/menu_admin_arrow_down2.png") center no-repeat #fff; }
+/* // 2019-08-27 추가 */
+.labDetail.manage .panelInfo .bodyArea .labList > .list:first-child{border-top:none;}
+.labDetail.manage .panelInfo .bodyArea .labList > .list .postList{clear:both;}
+.labDetail.manage .panelInfo .bodyArea .labList > .list .postList > div{position:relative;}
+.labDetail.manage .panelInfo .bodyArea .labList > .list .postList > div:after{content:''; display:block; clear:both;}
+/* 2019-08-27 수정 */
+.labDetail.manage .panelInfo .bodyArea .labList > .list .postList .qName{float:right; display: block; width:calc(100% - 38px); padding: 15px 70px 15px 33px; line-height: 24px; background: url(../images/dot_line_icon.png), url(../images/sub_post_icon.png); background-repeat: repeat-x, no-repeat; background-position: 0 bottom, 10px center;}
+/* // 2019-08-27 수정 */
+.labDetail.manage .panelInfo .bodyArea .labList > .list .postList .qName.on{font-family:'HyundaiSansTextKRMedium', sans-serif; color:#000;}
+.labDetail.manage .boardArea{padding-bottom:0; border:1px solid #e5e5e5;}
+.labDetail.manage .boardArea .surveyWrap{padding-bottom:50px;}
+.labDetail.manage .boardArea .surveyTable{padding:35px 40px 0; border-top:none;}
+.labDetail.manage .boardArea .surveyTable .periodTxt{margin-left:15px; line-height:50px;}
+.labDetail.manage .boardArea .surveyTable .list{position:relative;}
+.labDetail.manage .boardArea .surveyTable .list .con .periodSel .yearSel{margin-right:0;}
+.labDetail.manage .boardArea .surveyTable .list.float .con{float:right;}
+.labDetail.manage .boardArea .surveyTable .borderDiv{margin-top:0; padding:0; border:none;}
+.labDetail.manage .boardArea .btnWrap .closeBtn{display:none;}
+.labDetail.manage .plusBtn{position:absolute; left:73px; top:22px; padding:0 20px; height:35px; background:#555; text-align:center;}
+.labDetail.manage .plusBtn span{padding-right:22px; font-family:'HyundaiSansHeadKRRegular', sans-serif; color:#fff; line-height:35px; background:url(../images/plusBtn_manage.png) right center no-repeat;}
+
+/* 2019-08-27 추가 */
+.labDetail .boardArea .boardListWrap.searchType{margin-top:0;}
+.labDetail .boardArea .searchType .boardList .boardTable .list .tit{width:63%}
+.labDetail .boardArea .searchType .boardList .boardTable .list .date{width:12%; padding:0 21px 0 0}
+.labDetail .boardArea .searchType .boardList .boardTable .list .people{display:table-cell; width:25%; vertical-align:middle; text-align:center; }
+.labDetail .boardArea .searchType .boardList .boardTable .list .people span{display:inline-block;}
+.labDetail .boardArea .searchType .boardList .boardTable .list .people .level {min-width:40px; margin-right:5px;}
+.labDetail .boardArea .searchType .boardList .boardTable .list .people .level.Hello {color:#aacae6;}
+.labDetail .boardArea .searchType .boardList .boardTable .list .people .level.Elite {color:#002c5f;}
+.labDetail .boardArea .searchType .boardList .boardTable .list .people .level.Ace {color:#00aad2;}
+.labDetail .boardArea .searchType .boardList .boardTable .list .people .level.Royal {color:#a36b4f;}
+.labDetail .boardArea .searchType .boardList .boardTable .list .people .level.Admin {color:#fff; background:#000000;}
+.labDetail .boardArea .searchType .boardList .boardTable .list .tit .txt{width:100%; margin-top:5px; font-size:14px; color:#666; line-height:20px; overflow:hidden; line-height: 1.2em;height: 3.6em;display: -webkit-box;-webkit-line-clamp: 3; -webkit-box-orient: vertical;}
+/* // 2019-08-27 추가 */
+
+/* 2019-10-31 추가*/
+.labDetail .endArea{margin-top:-1px;}
+.labDetail .endArea .tit{display:block; width:100%; height:64px; padding:0 20px; font-family:'HyundaiSansHeadKRMedium', sans-serif;  font-size:18px; color:#000; line-height:64px; background:url("../images/end_off_icon.png") right 20px center no-repeat #dddad9;}
+.labDetail .endArea .tit.on{background:url("../images/end_on_icon.png") right 20px center no-repeat #dddad9;}
+.labDetail .endArea .bodyArea{display:none}
+.labDetail .endArea .bodyArea .labList > .list:first-child{border-top:0;}
+.labDetail.manage .endArea{margin-top:0;}
+.labDetail.manage .endArea .tit{display:block; width:100%; height:63px; padding:0 30px; font-family:'HyundaiSansHeadKRRegular', sans-serif;  font-size:20px; color:#000; line-height:63px; background:url("../images/end_off_icon.png") right 30px center no-repeat #f5f5f5;}
+.labDetail.manage .endArea .tit.on{background:url("../images/end_on_icon.png") right 30px center no-repeat #f5f5f5;}
+.labDetail .panelInfo .endArea .bodyArea .labList > .list .titArea p:not(.blueBtn).hasList{padding:22px 0; line-height:1;}
+.labDetail .panelInfo .endArea .bodyArea .labList > .list .postList .list{position:relative; padding-right:25px;}
+.labDetail .panelInfo .endArea .bodyArea .labList > .list .postList .list a.delBt{position:absolute; top:50%; transform:translateY(-50%); right:0; width:18px; height:18px; background:url("../images/end_del_icon.png") center no-repeat; text-indent:-9999px; overflow:hidden;}
+/* // 2019-10-31 추가*/
+
+.boardTab{display:none;}
+.boardArea{float:right; overflow:hidden; padding-bottom:120px; width:calc(100% - 390px); background:#fff;}
+
+.boardArea .majorImg{max-height:284px; overflow:hidden;}
+.boardArea .majorImg img {max-width:100%;}
+.boardArea .tabWrap{margin-top:30px;}
+.boardArea .tabWrap:after{content:''; display:block; clear:both;}
+.boardArea .tabWrap .rschTab{float:left; overflow:hidden; text-align:right;}
+.boardArea .tabWrap .rschTab a{position:relative; padding-right:12px; margin-right:8px;}
+.boardArea .tabWrap .rschTab a:after{content:''; display:block; position:absolute; right:0; top:2px; width:1px; height:14px; background:#ccc;}
+.boardArea .tabWrap .rschTab a:last-child:after{display:none;}
+.boardArea .tabWrap .rschTab a:last-child{margin-right:0; padding-right:0;}
+.boardArea .tabWrap .rschTab a.on{font-family:'HyundaiSansTextKRMedium', sans-serif; color:#000;}
+.boardArea .tabWrap .btnWrap{float:right; margin:0 auto;}
+.boardArea .boardUseTip{display:block; margin-bottom:30px; padding:39px; border:1px solid #e5e5e5; background:url(../images/board_use_icon.png) right 37px center no-repeat;}
+.boardArea .boardUseTip .tit{font-family:'HyundaiSansTextKRMedium', sans-serif; color:#000; font-size:20px;}
+.boardArea .boardUseTip .txt{margin-bottom:13px; font-size:18px;}
+.boardArea .boardUseTip .txt span{vertical-align:text-top; font-size:20px;}
+.boardArea .boardUseTip .vertiInfo{margin-top:15px;}
+.boardArea .boardUseTip.research{padding:38px 39px 37px; background:url(../images/make_research_icon.png) right 39px center no-repeat;} /* 설문등록 페이지 */
+.boardArea .topTit{margin-bottom:30px; font-family:'HyundaiSansHeadKRRegular', sans-serif; color:#000; font-size:26px;}
+.boardArea .surveyWrap{position:relative;}
+.boardArea .surveyWrap .essentialTxt{margin-top:0;}
+
+.boardArea .boxStyle{position:relative; margin-bottom:20px; padding:20px; border:1px solid #e5e5e5;}
+.boardArea .boxStyle:after{content:''; display:block; clear:both;}
+.boardArea .boxStyle .plusBtn{position:absolute; right:20px; top:60px; display:block; padding:0 19px; height:35px; background:#555;}
+.boardArea .boxStyle .plusBtn span{padding-right:18px; font-family:'HyundaiSansTextKRMedium', sans-serif; color:#fff; line-height:35px; background:url(../images/view_more_btn.png) right center no-repeat;}
+/* 2020-02-25 추가 */
+.boardArea .boxStyle:last-child{margin-bottom:0;}
+.boardArea .boxStyle .btnArea{position:absolute; right:20px; top:60px;}
+.boardArea .boxStyle .btnArea > a{margin-left:3px;}
+.boardArea .boxStyle .btnArea > a:first-child{margin-left:0;}
+.boardArea .boxStyle .btnArea .whtBtn{display:inline-block; padding:0 19px; height:35px; line-height:33px; color:#555; border:1px solid #e5e5e5; background:#fff;}
+.boardArea .boxStyle .btnArea .plusBtn{position:relative; top:auto; right:auto; display:inline-block;}
+/* // 2020-02-25 추가 */
+.boardArea .boxStyle .qOption{}
+.boardArea .boxStyle .qOption .list{margin-bottom:10px;}
+.boardArea .boxStyle .qOption .list:after{content:''; display:block; clear:both;}
+.boardArea .orderBy{text-align:right; padding-right:5px; top:-10px; position:relative;}/* 2020-02-25 임의추가 */ 
+.boardArea .boxStyle .qOption .list .left{float:left; width:96px; margin-right:10px; text-align:right;}
+.boardArea .boxStyle .qOption .list .left p{color:#000; line-height:50px;}
+.boardArea .boxStyle .qOption .list .right{float:left; position:relative; width:calc(100% - 106px);}
+.boardArea .boxStyle .qOption .list .right input[type="text"] {padding-right:40px;}
+.boardArea .boxStyle .qOption .list .right .radioType1{}
+.boardArea .boxStyle .qOption .list .right .radioType1 p{position:relative; display:inline-block; margin-left:18px;}
+.boardArea .boxStyle .qOption .list .right .radioType1 p:first-child{margin-left:0;t}
+.boardArea .boxStyle .qOption .list .optDeleteBtn{position:absolute; top:calc(50% - 9px); right:15px; width:18px; height:18px; background:url(../images/list_delete_btn.png) 0 0 no-repeat;}
+/* 2020-02-25 추가 */
+/* .boardArea .boxStyle .qOption .list .right .etcTxt{margin-top:30px; font-size:16px; line-height:26px; color:#000; } */
+.boardArea .boxStyle .qOption .list .right .listBox{position:relative; float:left; width:calc(100% - 60px); width:-webkit-calc(100% - 60px); margin-right:10px;}
+.boardArea .boxStyle .qOption .list .right .listBtn{display:block; float:left; width:50px; height:50px; overflow:hidden; text-indent:-9999px; overflow:hidden;}
+.boardArea .boxStyle .qOption .list .right .listBtn.listAddBtn{border:1px solid #00aad2; background:url(https://hear.hyundai.com/error.html) center no-repeat;}
+.boardArea .boxStyle .qOption .list .right .listBtn.listAddBtn2{border:1px solid #00aad2; background:url(https://hear.hyundai.com/error.html) center no-repeat;} /* 20200310 임의추가 */
+.boardArea .boxStyle .qOption .list .right .listBtn.listDelBtn{border:1px solid #e63312; background:url(https://hear.hyundai.com/error.html) center no-repeat;}
+/* // 2020-02-25 추가 */
+.boardArea .boxStyle .qOption .list.etc{margin:-3px 0 0;}
+.boardArea .boxStyle .qOption .list.etc .right{padding-top:15px;}
+/* 2020-02-25 추가 */
+.boardArea .boxStyle .qOption .list.etc:last-child{margin:0;}
+.boardArea .boxStyle .qOption .list.etc .right.pt0{padding-top:0;}
+.boardArea .boxStyle .qOption .list.etc .right .chkType2{margin-left:0;}
+.boardArea .boxStyle .qOption .list.etc .limitArea:after{content:''; display:block; clear:both;}
+.boardArea .boxStyle .qOption .list.etc .limitArea .inputBox{float:left; width:calc(100% - 210px); width:-webkit-calc(100% - 210px); margin-right:10px;}
+.boardArea .boxStyle .qOption .list.etc .limitArea .inputBox input{width:196px;}
+.boardArea .boxStyle .qOption .list.etc .limitArea .inputBox span{display:inline-block; width:40px; text-align:center;}
+.boardArea .boxStyle .qOption .list.etc .limitArea select{float:left; width:200px;}
+.boardArea .boxStyle .qOption .list.etc .right .chkArea .chkType2{margin-right:17px}
+.boardArea .boxStyle .qOption .list.etc .right .chkArea .inputChkArea{display:inline-block;}
+.boardArea .boxStyle .qOption .list.etc .right .chkArea .inputChkArea .chkType2{margin-right:0;}
+.boardArea .boxStyle .qOption .list.etc .right .chkArea .inputTxt{display:inline-block; margin-left:5px;}
+.boardArea .boxStyle .qOption .list.etc .right .chkArea .inputTxt input{display:inline-block; width:96px; height:50px; margin-right:5px;}
+/* // 2020-02-25 추가 */
+.boardArea .boxStyle .qOption .list.etc .right .chkType2{margin-left:0;}
+.boardArea .boxStyle .qOption .list.etc .right .plusEtc{display:inline-block; padding-bottom:1px; margin-left:17px; font-family:'HyundaiSansTextKRMedium', sans-serif; border-bottom:1px solid #555; vertical-align:middle;}
+.boardArea .boxStyle .qOption .list.opt p{line-height:40px;}
+.boardArea .boxStyle .qOption .list:last-child{margin-bottom:0;}
+.boardArea .boxStyle.makeQ{}
+.boardArea .boxStyle.makeQ .tit{float:left; margin-bottom:0 !important; line-height:50px;}
+.boardArea .boxStyle.makeQ .makeOpt{float:right;}
+.boardArea .boxStyle.makeQ .makeOpt .makeBtn{display:inline-block; width:80px; height:50px; font-family:'HyundaiSansTextKRMedium', sans-serif; color:#fff; line-height:50px; text-align:center; vertical-align:middle; background:#555;}
+/* 2020-02-25 추가 */
+.boardArea .boxStyle.makeQ.typeZ{margin:20px 0 0;}/* 2020-03-06 임의변경 */
+.boardArea .boxStyle.makeQ.typeZ .tit{margin-top:0 !important;}/* 2020-03-06 임의변경 */
+.boardArea .boxStyle.makeQ.typeZ select{width:240px;}/* 2020-03-06 임의변경 */
+.boardArea .boxStyle.makeQ.typeZ .makeOpt .makeBtn{width:auto; padding:0 20px;}/* 2020-03-06 임의변경 */
+/* // 2020-02-25 추가 */
+.boardArea .boxStyle.surveyForm{padding:70px 20px 40px;}
+.boardArea .boxStyle.surveyForm .listDeleteBtn{position:absolute; right:0; top:0; width:40px; height:40px; background:url(../images/survey_form_close_btn.jpg) 0 0 no-repeat;}
+.boardArea .viewType .titArea .listTit{/*padding-right:145px;*/ font-size:28px; line-height:32px;}/* lab 상세페이지 영역에서 노출되는 경우 조금 작게 줄어듦 */
+.boardArea .viewType .titArea .date{margin-top:22px;}
+.boardArea .viewType .conArea{padding:40px 20px 50px; line-height:28px;}
+.boardArea .viewType .conArea .conTxt .img{margin-bottom:35px;}
+.boardArea .viewType .conArea .reportBtn{position:absolute; right:20px; bottom:20px;}
+.boardArea .viewType .commentArea{margin-bottom:40px; padding-top:8px;}
+.boardArea .writeType3 .rightDiv input.fluid{width:calc(100% - 105px);}
+.boardArea .writeType3 .rightDiv .chkType2{display:inline-block; width:101px; text-align:right; vertical-align:middle;}
+.boardArea .writeType3 .rightDiv input[type="file"]{width:100%;}
+.boardArea .writeType3 .rightDiv textarea{width:100%; height:540px; line-height:28px;}
+.boardArea.onlyList{margin-top:50px;}
+
+/* 2020-01-21 추가 */
+/* 검토 상태 표시 - 목록 */
+.boardArea .reviewType{width:300px; float:left; position:relative;}/* 2020-02-25 임의수정 */ 
+.boardArea .reviewType:after{content:''; display:block; clear:both;}
+.boardArea .orderBy{text-align:right; padding-right:5px; top:-10px; position:relative;}/* 2020-02-25 임의추가 */ 
+.boardArea .revSquare{display:block; position:relative; float:left; margin-right:30px; padding-left:25px; font-size:16px; color:#777; line-height:1; }
+.boardArea .revSquare:after{content:''; display:block; position:absolute; top:50%; transform:translateY(-50%); left:0; width:15px; height:15px; background:#bdb2a6;}
+.boardArea .revSquare.rev01:after{background:#bdb2a6;}/*  2020-02-26 임의수정 */
+.boardArea .revSquare.rev02:after{background:#d2a800;}/*  2020-02-26 임의수정 */
+.boardArea .revSquare.rev03:after{background:#2cae88;}/*  2020-02-03 수정 *//*  2020-02-26 임의수정 */
+.boardArea .revSquare:last-child{margin-right:0;}
+.boardArea .tableType1 td a{display:table; vertical-align:middle;}
+.boardArea .tableType1 td a .txtBox{display:table-cell; vertical-align:middle;}
+.boardArea .tableType1 td a .revSquare{display:table-cell; float:none; width:15px; height:100%; margin:0; padding:0 10px 0 0; text-indent:-9999px; overflow:hidden; vertical-align:middle;}
+.boardArea .tableType1 td a .revSquare:after{position:relative;}
+.boardArea .tableType1 table tbody tr td.new:after{display:none;}
+.boardArea .tableType1 table tbody tr td.new .txtBox{position:relative;}
+.boardArea .tableType1 table tbody tr td.new .txtBox:after{content:'N'; margin-left:13px; font-family:'HyundaiSansHeadKRBold', sans-serif; color:#e63312; font-size:14px;}
+.boardArea .tableType1 table tbody tr td.new .commentSum:after{content:'N'; margin-left:4px; font-family:'HyundaiSansHeadKRBold', sans-serif; color:#e63312; font-size:14px;}
+.boardArea .tableType1 table tbody tr td .reTxt{display:block;}
+/* 검토 상태 표시 - 상세 */
+.boardArea .viewType .titArea .listTit .revSquare:after{display:none;}
+.boardArea .viewType .titArea .listTit .revSquare{display:inline-block; float:none; width:88px; height:30px; margin:0 10px 5px 0; padding-left:0; font-family:"HyundaiSansTextKRRegular"; color:#fff; line-height:30px; vertical-align:middle; text-align:center; background:#bdb2a6;}
+
+/* 2020-02-03 추가 */
+.boardArea .viewType .titArea .listTit .revSquare.rev01{background:#bdb2a6;}/*  2020-02-26 임의수정 */
+.boardArea .viewType .titArea .listTit .revSquare.rev02{background:#d2a800;}/*  2020-02-26 임의수정 */
+.boardArea .viewType .titArea .listTit .revSquare.rev03{background:#2cae88;}/*  2020-02-26 임의수정 */
+/* // 2020-02-03 추가 */
+.attachArea.staffDiv{position:relative; padding:22px 30px 17px; overflow:hidden;}
+.attachArea.staffDiv .tit{margin:10px 31px 0 0; background:url(../images/staff_icon1.png) 0 center no-repeat;}
+.attachArea.staffDiv .staffList{float:left; width:calc(100% - 137px); padding-right:120px; overflow:hidden;}
+.attachArea.staffDiv .staffList p{display:block; float:left; height:35px; margin:0 10px 5px 0; padding:0 22px; font-size:16px; line-height:35px; border:1px solid #e5e5e5}/* 2020-02-06 수정 */
+.attachArea.staffDiv .staffList p:last-child{margin-right:0;}
+/* 2020-02-06 추가 */
+.attachArea.staffDiv .staffList p .delBtn{display:inline-block; width:14px; height:14px; margin-bottom:2px; vertical-align:middle; background:url("../images/staff_del_icon.png") center no-repeat; overflow:hidden; text-indent:-9999px; margin-left:2px;}/* 2020-02-17 임의추가 */
+/* // 2020-02-06 추가 */
+.attachArea.staffDiv .staffBtn{display:block; position:absolute; top:22px; right:0; width:116px; height:35px; font-size:16px; color:#fff; line-height:35px; text-align:center; background:#002c5f;}
+.attachArea.staffRepDiv{padding-bottom:30px;}
+.attachArea.staffRepDiv .commentInfo{position:relative}
+.attachArea.staffRepDiv .writeArea .commentInfo .staffSelectBox{top:0;}
+.attachArea.staffRepDiv .tit{float:none; margin:8px 0 0; background:url(../images/staff_icon2.png) 0 center no-repeat;}
+.attachArea.staffRepDiv .commentArea{margin:18px 0 0; padding:0; background:#f5f5f5;}
+.attachArea.staffRepDiv .commentArea .writeArea{margin:0; padding:30px; border-bottom:1px solid #e5e5e5; display:none;}/* 2020-02-17 임의수정 */
+.attachArea.staffRepDiv .commentArea .writeArea.on{display:block;} /* 2020-02-17 임의추가 */
+/* 2020-02-06 수정 */
+.attachArea.staffRepDiv .commentArea .commentList{padding:0 30px; border-bottom:0;}
+.attachArea.staffRepDiv .commentArea .staffSelectBox{position:absolute; top:0; right:0;}
+.attachArea.staffRepDiv .commentArea .staffSelectBox .myListBtn{position:relative; top:8px; right:auto;}
+/* // 2020-02-06 수정 */
+.attachArea.staffRepDiv .commentArea .schArea{overflow:hidden;}
+.attachArea.staffRepDiv .commentArea .schArea select{width:133px; height:30px; padding:0 25px 0 10px; border:1px solid #d6d5d3; font-size:16px; color:#555; line-height:28px; background:#fff url(../images/sch_arr_icon.png) right 10px center no-repeat;}
+.attachArea.staffRepDiv .commentArea .schArea .okBtn{display:block; float:left; width:42px; height:30px; margin-left:10px; font-size:16px; color:#fff; line-height:30px; text-align:center; background:#555; }
+/* 2020-02-06 추가 */
+.attachArea.staffRepDiv .commentArea .writeBox{margin-top:23px;}
+.attachArea.staffRepDiv .commentArea .list.myList .staffSelectBox{overflow:hidden;}
+/* 2020-02-06 임의추가 */
+.attachArea.staffRepDiv .commentArea .list.myList .staffSelectBox .xModify{float:left; top:3px; right:0;position:relative;}
+.attachArea.staffRepDiv .commentArea .list.myList .staffSelectBox .xModify a{padding:0px 12px;}
+.attachArea.staffRepDiv .commentArea .list.myList .staffSelectBox #myRevwCd:disabled {background:#f5f5f5;}
+/* 2020-02-06 임의추가 */
+.attachArea.staffRepDiv .commentArea .list.myList .staffSelectBox .schArea{float:left}
+.attachArea.staffRepDiv .commentArea .list.myList .staffSelectBox .myListBtn{float:left}
+.attachArea.staffRepDiv .commentArea .commentList .list .myListBtn a:first-child:before{display:none;}
+.attachArea.staffRepDiv .commentArea .commentList .list .xModifyW{top:5px; right:0;}
+.attachArea.staffRepDiv .commentArea .commentList .list .xModifyW .blueTxt{color:#002c5f;}
+/* // 2020-02-06 추가 */
+/* 검토 상태 표시 - 검토자 팝업 */
+.layerPop.staffPop{width:462px; height:478px;}/* 2020-02-03 수정 */
+.layerPop.staffPop .popCon{max-height:none; padding:40px; }
+.layerPop.staffPop .popCon > div{padding-bottom:0;}
+.layerPop.staffPop .lyTit{padding-bottom:30px;}
+.layerPop.staffPop .lyTit .tit{font-size:20px; color:#000; line-height:1;}
+.layerPop.staffPop .staffPopList{width:100%; height:196px; padding:15px; overflow:hidden; overflow-y:scroll; background:#f5f5f5; margin:20px 0 25px;}/* 2020-02-17 임의추가 */
+.layerPop.staffPop .staffPopList .list{margin-bottom:10px; overflow:hidden;}
+.layerPop.staffPop .staffPopList .list:last-child{margin-bottom:0;}
+.layerPop.staffPop .staffPopList .list .chkType2{float:left; margin-right:20px;}
+.layerPop.staffPop .staffPopList .list .chkType2 label{padding-left:24px; min-height:24px; line-height:24px; background-size:24px 24px}
+.layerPop.staffPop .staffPopList .list .people{float:left; width:calc(100% - 44px); width:-webkit-calc(100% - 44px); overflow:hidden;}
+.layerPop.staffPop .staffPopList .list .people span{display:block; float:left; font-size:16px; color:#000; line-height:24px;}
+/* 2020-02-03 추가 */
+.layerPop.staffPop .staffPopList .list .people span.emailId{width:135px; padding-right:5px; color:#777; letter-spacing:-0.7px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.layerPop.staffPop .staffPopList .list .people span.id{width:calc(100% - 135px); width:-webkit-calc(100% - 135px); }
+/* // 2020-02-03 추가 */
+.layerPop.staffPop .staffPopList .list .people .level{width:60px;}
+.layerPop.staffPop .staffPopList .list .people .level.Hello{color:#aacae6;}
+.layerPop.staffPop .staffPopList .list .people .level.Elite{color:#002c5f;}
+.layerPop.staffPop .staffPopList .list .people .level.Ace{color:#00aad2;}
+.layerPop.staffPop .staffPopList .list .people .level.Royal{color:#a36b4f;}
+.layerPop.staffPop .staffPopList .list .people .level.Admin{color:#000000;}
+.layerPop.staffPop .btnWrap{margin-top:30px;}
+.layerPop.staffPop .btnWrap .smBlueBtn{min-width:150px; height:54px; line-height:54px;}
+/* // 2020-01-21 추가 */
+/* 2020-02-03 추가 */
+.layerPop.staffPop .schArea{margin-bottom:20px;}
+.layerPop.staffPop .schArea select{width:124px}
+.layerPop.staffPop .schArea .inputBox input{width:258px}
+/* // 2020-02-03 추가 */
+
+/* 2020-02-06 추가 */
+.layerPop.staffPop .staffListNone{width:100%; height:162px; margin:20px 0 25px; font-size:16px; line-height:162px; text-align:center; background:#f5f5f5;}
+.layerPop.staffPop .staffChkList{display:none; overflow:hidden;}
+.layerPop.staffPop .staffChkList.on{display:block;}
+.layerPop.staffPop .staffChkList p{float:left; margin:5px 20px 5px 0;}
+.layerPop.staffPop .staffChkList p:last-child{margin-right:0;}
+.layerPop.staffPop .staffChkList p .delBtn{display:inline-block; width:19px; height:14px; margin:0 2px 0 0; vertical-align:middle; background:url("../images/staff_del_icon.png") right center no-repeat; overflow:hidden; text-indent:-9999px;}
+/* // 2020-02-06 추가 */
+
+/* // 2020-02-17 임의추가 */
+/* 검토자 지정 팝업용 */
+.layerPop.staffPop .staffChkList .staffConYList{width:100%; height:auto; overflow:hidden; display:none;}
+.layerPop.staffPop .staffChkList .staffConYList.on{display:block;}
+.layerPop.staffPop .staffChkList .staffConYList .tit{margin:5px 31px 3px 0; background:url(../images/staff_icon1.png) 0 center no-repeat; float:left; padding-left:25px; width:100%}
+.layerPop.staffPop .staffChkList .line{border-top:1px solid #e5e5e5; margin:5px 0px;}
+/* // 2020-02-17 임의추가 */
+
+/* 2020-02-25 추가 */
+/* 고급 문항등록 페이지 상위문항 결과값 승계 기능안내 시작 팝업 */
+.layerPop.succPop{}
+.layerPop.succPop .popCon .lyTit{padding-bottom:40px;}
+.layerPop.succPop .boxListDiv{padding:25px 50px; border:1px solid #e5e5e5;}
+.layerPop.succPop .boxListDiv .list{display:table; width:100%; table-layout:fixed;}
+.layerPop.succPop .boxListDiv .list .tit{display:table-cell; width:220px; vertical-align:top; font-family:'HyundaiSansTextKRMedium', sans-serif; font-size:18px; line-height:26px; color:#000;}
+.layerPop.succPop .boxListDiv .list .con{display:table-cell; width:calc(100% - 220px); width:-webkit-calc(100% - 220px);}
+.layerPop.succPop .boxListDiv .list .con li{margin-bottom:10px; ;font-size:16px; line-height:26px;}
+.layerPop.succPop .boxListDiv .list .con li:last-child{margin-bottom:0;}
+.layerPop.succPop .boxListDiv .list .con .gryBox{display:table; width:100%; margin:15px 0; padding:15px 20px; background:#f6f3f2;}
+.layerPop.succPop .boxListDiv .list .con .gryBox .tit{display:table-cell; width:73px; font-family:'HyundaiSansTextKRMedium', sans-serif; font-size:16px; color:#000; line-height:34px;}
+.layerPop.succPop .boxListDiv .list .con .gryBox .con{display:table-cell; width:calc(100% - 73px); width:-webkit-calc(100% - 73px); font-size:16px; line-height:26px;}
+.layerPop.succPop .boxListDiv .list .con .gryBox .con .redTxt{margin-top:5px; text-indent:-11px; padding-left:11px; color:#e63312;}
+.layerPop.succPop .boxListDiv .list .con .gryBox .con .redTxt span{font-family:'HyundaiSansTextKRMedium', sans-serif;}
+.layerPop.succPop .boxListDiv .list .con .infoTxt{font-size:16px; line-height:26px; color:#777;}
+.layerPop.succPop .btnWrap{margin-top:30px;}
+/* 고급 문항등록 페이지 보기카드 등록 팝업 */
+.layerPop.regiPop{}
+.layerPop.regiPop .popCon .lyTit{padding-bottom:30px;}
+.layerPop.regiPop .tabArea > .tabParent{margin:0; border-top:1px solid #e5e5e5;}
+.layerPop.regiPop .tabArea > .tabParent .tabCon{margin-top:0;}
+.layerPop.regiPop .regiArea{padding:40px 0 0; }
+.layerPop.regiPop .regiArea .listDiv{padding:20px 50px; border:1px solid #e5e5e5}
+.layerPop.regiPop .regiArea .listDiv .list{display:table; width:100%; margin-bottom:25px; table-layout:fixed;}
+.layerPop.regiPop .regiArea .listDiv .list:last-child{margin-bottom:0;}
+.layerPop.regiPop .regiArea .listDiv .list .tit{display:table-cell; width:220px; vertical-align:middle; font-family:'HyundaiSansTextKRMedium', sans-serif; font-size:18px; color:#000;}
+.layerPop.regiPop .regiArea .listDiv .list .tit.vaT{vertical-align:top; padding-top:8px;}
+.layerPop.regiPop .regiArea .listDiv .list .con{display:table-cell; width:calc(100% - 220px); width:-webkit-calc(100% - 220px);}
+.layerPop.regiPop .regiArea .listDiv .list .con .inputTxt{}
+.layerPop.regiPop .regiArea .listDiv .list .con .inputTxt input{width:94px; margin-right:5px;}
+.layerPop.regiPop .regiArea .fileChoice + .infoTxt{font-size:16px; color:#919191; line-height:35px}
+.layerPop.regiPop .btnWrap{margin-top:30px;}
+/* //  2020-02-25 추가 */
+.reasonNoti {margin-top:30px;}
+.reasonNoti .subTit {margin-bottom:20px; font-family:'HyundaiSansHeadKRMedium', sans-serif; font-size:22px; color:#000;}
+.reasonNoti .grayBox {position:relative; padding:70px 0; background:#f5f5f5; text-align:center;}
+.reasonNoti .grayBox .txt{display:inline-block; padding:19px 0 19px 72px; font-size:18px; background:url("../images/reasonNoti_icon.png") no-repeat left center;}
+.reasonNoti .grayBox .txt span{font-family:'HyundaiSansTextKRMedium', sans-serif; color:#000;}
+.reasonNoti .grayBox .date{position:absolute; top:25px; right:25px;}
+
+
+
+.reasonNoti {margin-top:30px;}
+.reasonNoti .subTit {margin-bottom:20px; font-family:'HyundaiSansHeadKRMedium', sans-serif; font-size:22px; color:#000;}
+.reasonNoti .grayBox {position:relative; padding:70px 0; background:#f5f5f5; text-align:center;}
+.reasonNoti .grayBox .txt {display:inline-block; padding:19px 0 19px 72px; font-size:18px; background:url("../images/reasonNoti_icon.png") no-repeat left center;}
+.reasonNoti .grayBox .txt span {font-family:'HyundaiSansTextKRMedium', sans-serif; color:#000;}
+.reasonNoti .grayBox .date {position:absolute; top:25px; right:25px;}
+
+/* 2019-11-20 추가 */
+/* 자유게시판  */
+#wrapper.lab .tableType1 .pc tbody tr td.writer .peo {position:relative; }
+#wrapper.lab .tableType1 .pc tbody tr td.writer .peo .peoBtn {display:block}
+#wrapper.lab .tableType1 .pc tbody tr td.writer .peo .peoBtn:hover{text-decoration:underline; cursor:pointer}
+#wrapper.lab .tableType1 .pc tbody tr td.writer .peo .peoBtn.on{text-decoration:underline; cursor:pointer}
+#wrapper.lab .tableType1 .pc tbody tr.delete td.writer .peo .peoBtn {pointer-events:none}
+.transparentBg {display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.0); z-index:1}
+.writerTool {display:none; position:absolute; top:22px; left:5px; width:173px; border:1px solid #d0d0d0; box-shadow:8px 3px 15px rgba(0,0,0,0.15); background:#fff; z-index:5}
+.writerTool .info {width:100%; padding:10px 20px;}
+.writerTool .info dl {overflow:hidden; width:100%; text-align:left; font-family:'HyundaiSansHeadKRMedium', sans-serif; font-size:16px; color:#555555; line-height:36px;}
+/* .writerTool .info dl:hover {color:#00aad2} */
+.writerTool .info dl dt {float:left; width:70px;} /* 2020-02-18수정 */
+.writerTool .info dl dd {float:left; width:calc(100% - 70px);} /* 2020-02-18수정 */
+.writerTool .written {display:block; padding:10px 20px; text-align:left; color:#000000; font-size:16px; line-height:26px; font-family:'HyundaiSansHeadKRMedium', sans-serif; border-top:1px solid #e5e5e5;}
+.writerTool .written:hover {color:#00aad2} 
+
+/* 게시글, 댓글 팝업 */
+.partialScroll .postedPopArea .elite {padding:20px 30px}
+.partialScroll .postedPopArea .elite > div {padding:20px; background:#f6f3f2; }
+.partialScroll .postedPopArea .elite p {font-size:18px; line-height:1; color:#000;}
+.partialScroll .postedPopArea .elite p .badge {display:inline-block; margin-right:10px; padding:0 16px; line-height:28px; font-size:16px; color:#002c5f; border:1px solid #002c5f; }
+.partialScroll .postedPopArea .popCon {height:496px; padding:0 30px 40px; overflow-y:auto}
+#wrapper.lab .partialScroll .postedPopArea .tableType1 .pc tbody tr td {word-break:keep-all}
+/* #wrapper.lab .partialScroll .postedPopArea .tableType1 .pc tbody tr td .twoline {font-size:16px; line-height:24px; color:#666666; overflow:hidden; text-overflow:ellipsis; word-break:break-word; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;} */
+#wrapper.lab .partialScroll .postedPopArea .tableType1 .pc tbody tr td .twoline {font-size:16px; height:50px; color:#666666; overflow:hidden; text-overflow:ellipsis; word-break:break-word; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;}
+#wrapper.lab .partialScroll .postedPopArea .tableType1 .pc tbody tr.reArticle td {white-space:nowrap; text-overflow:ellipsis; overflow:hidden; }
+#wrapper.lab .partialScroll .postedPopArea .tableType1 .pc tbody tr.reArticle td .twoline {display:block; white-space:nowrap; -webkit-line-clamp:1;}
+
+/*2019-11-26 임의 추가*/
+#wrapper .partialScroll .postedPopArea .tableType1 .pc tbody tr td {word-break:keep-all}
+/* #wrapper .partialScroll .postedPopArea .tableType1 .pc tbody tr td .twoline {font-size:16px; line-height:24px; color:#666666; overflow:hidden; text-overflow:ellipsis; word-break:break-word; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;} */
+#wrapper .partialScroll .postedPopArea .tableType1 .pc tbody tr td .twoline {font-size:16px; height:50px; color:#666666; overflow:hidden; text-overflow:ellipsis; word-break:break-word; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;}
+#wrapper .partialScroll .postedPopArea .tableType1 .pc tbody tr.reArticle td {white-space:nowrap; text-overflow:ellipsis; overflow:hidden; }
+#wrapper .partialScroll .postedPopArea .tableType1 .pc tbody tr.reArticle td .twoline {display:block; white-space:nowrap; -webkit-line-clamp:1;}
+/*2019-11-26 임의 추가*/
+
+
+/* 게시글상세 팝업 */
+.partialScroll .postsedDetailArea {height:700px; padding:30px 30px 40px; overflow:hidden; overflow-y:auto;}
+.partialScroll .postsedDetailArea .popTitle {display:block; margin-bottom:30px; font-size:20px; line-height:30px; padding:35px 110px 35px 30px; font-family:'HyundaiSansHeadKRMedium', sans-serif; color:#000; border:1px solid #e5e5e5; background:url("../images/postsedDetail_pop_icon.png") no-repeat right 30px center}
+.partialScroll .postsedDetailArea .viewType .conArea {padding:34px 0;}
+.partialScroll .postsedDetailArea .viewType .conArea .conTxt .img > img {display:block; padding-bottom:20px;}
+.partialScroll .postsedDetailArea .viewType .commentArea {padding-top:40px;}
+.partialScroll .postsedDetailArea .paging {margin-top:30px;}
+.partialScroll .postsedDetailArea .btnWrap {margin:30px 0 0;}
+.partialScroll .postsedDetailArea .btnWrap a {min-width:110px;}
+.partialScroll .postsedDetailArea .btnWrap .blueBtn {height:40px; line-height:40px;}
+
+/* 패널 상세 정보 팝업 */
+.panelInfoPop .popCon .tit1 {margin-bottom:30px; font-family:'HyundaiSansTextKRMedium', sans-serif; color:#000; font-size:20px; line-height:1;}
+.panelInfoPop .popCon .tit2 {margin-top:30px; margin-bottom:20px; color:#000; font-size:18px; line-height:1;}
+.panelInfoPop .popCon .tit2:nth-of-type {margin-top:0px;}
+/* //2019-11-20 추가 */
+
+/* 유틸  - 개인정보처리방침 */
+.privacy .schArea{float:right; margin-bottom:30px;}
+.privacy .schArea .inputBox button {position:relative; top:0; right:0; margin-left:5px; width:80px; height:50px; font-family:'HyundaiSansHeadKRRegular', sans-serif; color:#fff; background:#555; text-align:center;}
+.privacy .termDiv{clear:both; border-top:1px solid #e5e5e5;}
+.privacy .termDiv .paragraph{margin-top:30px;}
+.privacy .termDiv .paragraph:first-child{margin-top:40px;}
+.privacy .termDiv .paragraph .tableType2{margin:15px 0;}
+.privacy .termDiv .paragraph .tit{font-family:'HyundaiSansTextKRMedium', sans-serif; color:#000; font-size:18px;}
+.privacy .termDiv .paragraph .txt{margin-top:5px; line-height:28px;}
+.privacy .termDiv .paragraph .txt .sTit{font-family:'HyundaiSansTextKRMedium', sans-serif;}
+.privacy .termDiv.agreement .paragraph{margin-top:28px;}
+.privacy .termDiv.agreement .paragraph:first-child{margin-top:40px;}
+.privacy .termDiv.agreement .paragraph .txt{margin-top:28px;}
+.privacy .termDiv.agreement .paragraph .txt:first-child{margin-top:0;}
+.privacy .termDiv.agreement .paragraph .txt .sTit{margin-top:0; color:#000;}
+.privacy .schArea select{border-right:1px solid #e5e5e5;}
+
+
+/* FAQ */
+.faqList{margin-top:20px; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5;}
+.faqList .list{border-bottom:1px solid #e5e5e5;}
+.faqList .list:last-child{border-bottom:none;}
+.faqList .list .acoBtn{position:relative; display:block; padding:26px 0 26px 83px; background:url(../images/icon_faq_q.png) 20px 11px no-repeat;}
+.faqList .list .acoBtn:after{content:''; display:block; clear:both;}
+.faqList .list .acoBtn .category{float:left; width:125px; font-family:'HyundaiSansTextKRMedium', sans-serif; color:#000;}
+.faqList .list .acoBtn .tit{float:left; padding-right:30px;}
+.faqList .list .acoBtn .arr{position:absolute; right:30px; top:50%; -webkit-transform:translateY(-50%); transform:translateY(-50%); width:22px; height:12px; background:url(../images/aco_icon.png) 0 0 no-repeat;}
+.faqList .list .acoBtn.on{background:url(../images/icon_faq_q_on.png) 20px 11px no-repeat;}
+.faqList .list .acoBtn.on .category{color:#00aad2;}
+.faqList .list .acoBtn.on .tit{color:#00aad2;}
+.faqList .list .acoBtn.on .arr{background:url(../images/aco_icon_on.png) 0 0 no-repeat;}
+.faqList .list .acoCon{display:none; position:relative; line-height:1.4; background:#f5f5f5;}
+.faqList .list .acoCon > div{position:relative; padding:32px 30px 30px 124px;}
+.faqList .list .acoCon > div:before{content:''; display:block; position:absolute; left:40px; top:37px; width:8px; height:8px; background:url(../images/re_comment_icon.png) 0 0 no-repeat;}
+.faqList .list .acoCon > div:after{content:''; display:block; position:absolute; left:60px; top:20px; width:44px; height:44px; background:url(../images/icon_faq_a.png) 0 0 no-repeat;}
+.faqList .list .acoCon .grayBtn{margin:15px 0;}
+.faqList .list .acoCon .tit{font-family:'HyundaiSansTextKRMedium', sans-serif;}
+.faqList .list .acoCon .con ul{padding:19px 0 0;}
+.faqList .list .acoCon .con ul li{margin-bottom:1px; padding-left:12px; line-height:26px; background:url(../images/list_dot_icon.png) left 11px no-repeat;}
+.faqList .list .acoCon .con ul li:last-child{margin-bottom:0;}
+.faqList .list .acoCon .con .fileDown a {display:inline-block; margin-right:6px; margin-top:5px; padding:7px 19px; min-height:35px; line-height:1; background:#fff; border:1px solid #e5e5e5;}
+.faqList .list .acoCon .con .fileDown a span{padding-right:22px; line-height:1.2; background:url(../images/icon_file_down.png) right center no-repeat;}
+.faqList .list .acoCon .con .fileDown a:last-child{margin-right:0;}
+
+/* 문의게시판 */
+.askAnswer .tit{margin:38px 0 22px; font-family:'HyundaiSansHeadKRMedium', sans-serif; color:#000; font-size:22px;}
+.askAnswer .box{padding:0 30px; background:#f5f5f5;}
+.askAnswer .box .top{padding:38px 0 30px; overflow:hidden; background:url(../images/dot_line_icon.png) 0 bottom repeat-x;}
+.askAnswer .box .top .txt{float:left; position:relative; padding-left:60px; color:#000; font-size:20px;}
+.askAnswer .box .top .txt:before{content:'RE'; display:block; position:absolute; left:0; top:-13px; width:45px; height:45px; font-family:'HyundaiSansHeadKRMedium', sans-serif; color:#fff; font-size:16px; text-align:center; line-height:44px; background:#555; border-radius:50%;}
+.askAnswer .box .top .time{float:right; color:#777;}
+.askAnswer .box .con{padding:18px 0 32px; line-height:26px;}
+
+
+/* 설문조사참여 */
+.rschStep .indicator{margin-top:38px;}
+.rschStep .indicator:after{content:''; display:block; clear:both;}
+.rschStep .indicator .logo{float:left; font-family:'HyundaiSansHeadKRMedium', sans-serif; color:#000; font-size:34px;}
+.rschStep .indicator .progress{float:right;}
+.rschStep .indicator .progress .tit{float:left; margin-right:13px; font-family:'HyundaiSansTextKRMedium', sans-serif; color:#000; line-height:24px;}
+.rschStep .indicator .progress .barWrap{float:right; position:relative; width:400px; height:24px; padding-right:15px; text-align:right; background:#eee;}
+.rschStep .indicator .progress .barWrap span{font-family:'HyundaiSansHeadKRMedium', sans-serif; color:#000; line-height:24px;}
+.rschStep .indicator .progress .barWrap .curNum{position:absolute; left:0; top:0; height:100%; font-family:'HyundaiSansHeadKRMedium', sans-serif; color:#fff; text-align:center; line-height:24px; background:#00aad2;}
+.rschStep .rschTit{margin-top:27px; padding:40px 30px; background:#f6f3f2; overflow:hidden;}
+.rschStep .rschTit .tit{float:left; font-family:'HyundaiSansHeadKRMedium', sans-serif; color:#000; font-size:22px;}
+.rschStep .rschTit .vertiInfo{float:right;}
+.rschStep .qArea{padding-right:3%; margin-top:34px;}
+.rschStep .qArea .question{margin-top:30px; color:#000; font-size:20px; line-height:30px;}
+.rschStep .qArea .question:first-child{margin-top:0;}
+.rschStep .qArea .typing{display:inline-block; animation:cursor 1s infinite;} /* 2020-03-17 임의추가 */
+.rschStep .qArea .questionCard{color:#000; font-size:20px; line-height:30px;} /* 2020-03-17 임의추가 */
+/*.rschStep .qArea .choOpt{margin-top:12px;} 2020-03-17 임의제거*/
+.rschStep .qArea .choOpt textarea{width:100%; height:326px;}
+.rschStep .qArea .choOpt .inputDiv{display:none; margin-top:10px; margin-bottom:10px;} /* 2020-03-17 임의수정 */
+.rschStep .qArea .choOpt .radioType1 p {margin-bottom:10px;}
+.rschStep .qArea .choOpt .radioType1 label{font-size:18px;}
+.rschStep .qArea .choOpt .chkType2 label{font-size:18px;}
+.rschStep .qArea .choOpt .chkType2{margin-right:25px;}
+.rschStep .qArea .choOpt .chkType2:last-child{margin-right:0;}
+
+/* 2020-01-10 추가 */
+.rschStep .qArea .choOptInfo{float:right; font-weight:bold; margin-right:20px} /* 2020-03-17 임의수정 */
+.rschStep .qArea .choOptInfo2{color:#e63312;}
+/* 2020-01-10 추가 */
+
+/* 2019-07-15 추가 */
+/* 2019-07-24 재수정 */
+.rschStep .qArea .choOpt .chkType2.holeblock{display:block; margin-bottom:14px;}
+.rschStep .qArea .choOpt .chkType2.holeblock:last-child{margin-bottom:0px;}
+.rschStep .qArea .choOpt .radioType1.holeblock > p {display:block}
+/* //2019-07-24 재수정 */
+/* //2019-07-15 추가 */
+.rschStep .qArea .choOpt .radioList{margin-bottom:36px;}
+.rschStep .qArea .choOpt .radioList:last-child{margin-bottom:0;}
+.rschStep .qArea .choOpt .radioList .tit{font-family:'HyundaiSansTextKRMedium', sans-serif; font-size:18px; color:#000;}
+.rschStep .qArea .choOpt .radioList .radioType1{margin-top:14px;}
+.rschStep .qArea .choOpt .userSel{margin-bottom:35px; padding:14px 30px; background:#f5f5f5; border:1px solid #e5e5e5;}
+.rschStep .qArea .choOpt .userSel:after{content:''; display:block; clear:both;}
+.rschStep .qArea .choOpt .userSel .list{float:left;}
+.rschStep .qArea .choOpt .userSel .list .popSubTit{display:inline-block; margin:0 16px 0 38px; vertical-align:middle;}
+.rschStep .qArea .choOpt .userSel .list select{width:170px;}
+.rschStep .qArea .choOpt .userSel .list:first-child .popSubTit{margin-left:0;}
+.rschStep .qArea .choOpt .videoDiv{position:relative;} /* 2020-03-17 임의수정 */
+.rschStep .qArea .choOpt .videoDiv iframe{position:absolute; width:100%; height:100%;}
+.rschStep .qArea .choOpt .videoDiv img{position:absolute; width:100%; height:100%;} /* 2020-03-17 임의수정 */
+.rschStep .qArea .choOpt.criterion{}
+.rschStep .qArea .choOpt.criterion .optWrap{display:inline-block;}
+.rschStep .qArea .choOpt.criterion .optWrap select{display:inline-block; width:430px;}
+.rschStep .qArea .choOpt.criterion .radioList{}
+.rschStep .qArea .choOpt.criterion .radioList .tit{display:inline-block; width:340px; font-family:'HyundaiSansTextKRMedium', sans-serif; color:#000; font-size:20px; line-height:60px; vertical-align:bottom;}
+.rschStep .qArea .choOpt.criterion .radioList .radioType2{display:inline-block; position:relative;}
+.rschStep .qArea .exDiv{margin-top:24px;} /* 2020-03-17 임의추가 */
+.rschStep .qArea .exList .tit{font-family:'HyundaiSansTextKRMedium', sans-serif; color:#000; font-size:18px;}
+.rschStep .qArea .exList .listWrap{overflow:hidden; margin-top:20px; padding:40px 38px; border:1px solid #e5e5e5;}
+.rschStep .qArea .exList .listWrap p{float:left; position:relative; margin:0 45px 0 0; min-width:103px;}
+.rschStep .qArea .exList .listWrap p:nth-child(4n+1){clear:both;}
+.rschStep .qArea .exList .listWrap p:nth-child(n+5){margin-top:25px;}
+.rschStep .qArea .exList .listWrap p span{margin-right:9px; width:30px; height:30px; padding-top:1px; font-family:'HyundaiSansTextKRBold', sans-serif; text-align:center; color:#555; font-size:18px;}
+.rschStep .qArea .dotResult {display:inline-block; padding:0 20px;}
+.rschStep .qArea .dotResult li {margin-bottom:15px; background:url("../images/dotResult_dot.png") repeat-x center;}
+.rschStep .qArea .dotResult li:last-child {margin-bottom:0;}
+.rschStep .qArea .dotResult li:after {content:""; display:block; clear:both;}
+.rschStep .qArea .dotResult li p {float:left; padding:0 10px; font-size:18px; background:#fff;}
+.rschStep .qArea .dotResult li p:last-child {float:right; margin-left:130px;}
+.rschStep .qArea .grayBtn.small {margin-top:20px; font-size:16px;}
+.rschStep .qArea .tableType2 {margin-top:20px;}
+.rschStep .qArea .tableType2 .taLeft {text-align:left;}
+.rschStep .btnWrap{margin-top:25px; text-align:left; height:54px;} /* 2020-03-17 임의수정 */
+.rschStep .btnWrap a:last-child{float:right;}
+.rschStep.end .endBox{position:relative; padding:90px 0 100px; text-align:center;}
+.rschStep.end .endBox > div{width:100%; padding-top:100px; background:url(../images/icon_research_end.png) center top no-repeat;}
+.rschStep.end .endBox > div .tit{font-family:'HyundaiSansHeadKRRegular', sans-serif; color:#000; font-size:28px;}
+.rschStep.end .endBox > div .txt{margin-top:18px; color:#777;}
+.rschStep.end .btnWrap{text-align:center;}
+.rschStep.end .btnWrap a{float:none;}
+
+.featurePop .popCon .lyTit{padding-bottom:40px; border-bottom:1px solid #e5e5e5;}
+.featurePop .popCon .rschfeature .img{margin:40px 0 39px; text-align:center;}
+.featurePop .popCon .rschfeature .img img{max-width:100%;}
+.featurePop .popCon .rschfeature .img img.mobile{display:none;}
+.featurePop .popCon .rschfeature .acoType1{margin-bottom:10px;}
+.featurePop .popCon .rschfeature .acoType1:last-child{margin-top:0;}
+.featurePop .popCon .rschfeature .acoType1 ul li{margin-bottom:25px; padding-left:13px; word-break:keep-all; background:url(../images/list_dot_icon.png) left 9px no-repeat;}
+.featurePop .popCon .rschfeature .acoType1 ul li .tit{margin-bottom:10px; font-family:'HyundaiSansTextKRMedium', sans-serif; color:#000; line-height:24px;}
+.featurePop .popCon .rschfeature .acoType1 ul li .txt{font-size:15px; line-height:24px;}
+.featurePop .popCon .rschfeature .acoType1 ul li .txt span{font-family:'HyundaiSansTextKRMedium', sans-serif;}
+
+.refusalPop .popCon .lyTit{padding-bottom:40px;}
+.refusalPop .popCon .refusalBox{padding:160px 50px 40px; text-align:center; background:#f6f3f2 url(../images/refusal_icon.png) center 40px no-repeat;}
+.refusalPop .popCon .refusalBox .tit{margin-bottom:32px; color:#000; font-size:18px; line-height:28px;}
+.refusalPop .popCon .refusalBox .txt{padding:20px 30px; height:150px; line-height:26px; text-align:left; overflow-y:auto; background:#fff; border:1px solid #e5e5e5;}
+
+.resarchPop{width:1020px;}
+.resarchPop .popCon{max-height:100%; padding:0 40px;}
+.resarchPop .popCon > div {padding-bottom:30px;}
+
+.partRschPop{}
+.partRschPop .popCon .popSubTit{font-family:'HyundaiSansTextKRMedium', sans-serif; color:#000; font-size:18px;}
+.partRschPop .popCon .vertiInfo{color:#777;}
+.partRschPop .popCon .lyTit{padding-bottom:20px;}
+.partRschPop .popCon .lyTit .tit{padding-top:40px; font-family:'HyundaiSansHeadKRMedium', sans-serif; color:#000; font-size:38px;}
+.partRschPop .popCon .lyTit .vertiInfo{margin-top:23px;}
+.partRschPop .popCon .lyCont{}
+.partRschPop .popCon .lyCont .rschNoti{display:table; margin-bottom:20px; width:100%; padding:25px 0; text-align:center; border:1px solid #e5e5e5;}
+.partRschPop .popCon .lyCont .rschNoti .tCell{display:table-cell; padding:0 5%;}
+.partRschPop .popCon .lyCont .rschNoti .tCell .txt{display:table; margin:0 auto; padding-left:72px; min-height:56px; color:#000; font-size:18px; line-height:28px; text-align:left; background:url(../images/icon_research.png) left center no-repeat;}
+.partRschPop .popCon .lyCont .rschNoti .tCell .txt p{display:table-cell; vertical-align:middle;}
+.partRschPop .popCon .lyCont .agreeArea{}
+.partRschPop .popCon .lyCont .agreeArea .tit{font-family:'HyundaiSansHeadKRMedium', sans-serif; color:#000; font-size:22px;}
+.partRschPop .popCon .lyCont .btnWrap{margin-top:20px;}
+.partRschPop .popCon .agreeDiv{margin-top:20px;}
+.partRschPop .popCon .agreeDiv .agreeList .agreeBox{height:120px; padding:24px 20px;}
+.partRschPop .popCon .agreeDiv > div:first-child {padding:20px 20px; border:1px solid #e5e5e5;}
+.partRschPop .popCon .agreeDiv > div .txt {font-family:'HyundaiSansTextKRMedium', sans-serif; line-height:20px; color:#000;}
+.partRschPop .popCon .agreeDiv .chkType2 label {font-family:'HyundaiSansTextKRMedium', sans-serif; line-height:20px; color:#000;}
+.partRschPop .popCon .agreeDiv .chkType2 label span {color:#777;}
+.partRschPop .popCon .agreeDiv .chkType2 input {float:right;}
+.partRschPop .popCon .agreeDiv .agreeList {background:#f6f3f2;}
+.partRschPop .popCon .agreeDiv .agreeList > section {padding:20px 20px; border-top:1px solid #e5e5e5;}
+.partRschPop .popCon .agreeDiv .agreeList > section:first-child {border-top:0;}
+.partRschPop .popCon .agreeDiv .agreeList .agreeBox {height:115px; overflow-y:auto; margin-top:20px; padding:14px 20px;  line-height:26px; border:1px solid #e5e5e5; background:#fff;}
+.partRschPop .popCon .agreeDiv .agreeList .agreeBox strong {display:inline-block; margin-top:5px; font-family:'HyundaiSansTextKRMedium', sans-serif; font-weight:normal; color:#000;}
+.partRschPop .popCon .agreeDiv .agreeList .agreeBox strong:first-child {margin-top:0;}
+/*2019-07-24 삭제
+.partRschPop .popCon .agreeDiv .chkType2.txtFirst label {padding:0 30px 0 0; background-position:right 0  top 0} 2019-07-17 추가 
+*/
+.partRschPop .popCon .agreeDiv .chkBox {padding:30px 20px; border:1px solid #e5e5e5;}
+.partRschPop .popCon .agreeDiv .chkBox:after {content:""; display:block; clear:both;}
+.partRschPop .popCon .agreeDiv .chkBox .tit {float:left; font-family:'HyundaiSansTextKRMedium', sans-serif; line-height:18px; color:#000;}
+.partRschPop .popCon .agreeDiv .chkBox .tit span {color:#777;}
+.partRschPop .popCon .agreeDiv .chkBox .chkArea {float:right;}
+.partRschPop .popCon .agreeDiv .chkBox .chkArea > div {display:inline-block; margin-right:20px;}
+.partRschPop .popCon .agreeDiv .chkBox .chkArea > div:last-child {margin-right:0;}
+
+.partRschPop .rschStep .qArea{height:530px; overflow-y:scroll;}
+
+.joinEndPop .endBox .iconBox{height:215px; background:url(../images/icon_join_end.png) center no-repeat; border:1px solid #e5e5e5;}
+.joinEndPop .endBox .txt{padding:50px 0 40px; text-align:center; color:#000; font-size:18px; line-height:28px; background:#f6f3f2;}
+
+
+/* 고객센터 */
+.centerArea{width:1180px; margin:auto;}
+
+
+
+
+/* 미디어쿼리 시작 */
+@media screen and (max-width:1280px) {/* 작은 웹, 태블릿가로 */
+    .labDetail{width:auto; padding:0 5%;}
+    .labDetail.manage{padding:0;}
+    .boardArea{width:calc(100% - 390px);}/* 2019-08-27 수정 */
+    .boardArea .surveyTable > .list .con .periodSel.hasTime .yearSel{float:none;}
+    .boardArea .surveyTable > .list .con .periodSel.hasTime .timeSel{margin:10px 0 0 0;}
+    .boardArea .surveyTable > .list .con .periodSel.hasTime span{margin-top:10px;}
+    .boardArea .surveyTable > .list .con span.notiTxt{display:block; margin:20px 0 15px 0;}
+    /* 2020-02-25 추가 */
+    .boardArea .boxStyle .qOption .list.etc .limitArea .inputBox{width:69%; margin-right:1%;}
+    .boardArea .boxStyle .qOption .list.etc .limitArea select{width:30%}
+    .boardArea .boxStyle .qOption .list.etc .limitArea .inputBox input{width:48%;}
+    .boardArea .boxStyle .qOption .list.etc .limitArea .inputBox span{width:4%;}
+    /* // 2020-02-25 추가 */
+    
+    .labDetail .boardArea .searchType .boardList .boardTable .list .tit{width:56%;}
+    .labDetail .boardArea .searchType .boardList .boardTable .list .people{width:28%;}
+    /* 고객센터 */
+    .centerArea{width:90%;}
+
+    /* 2020-01-15 추가 */
+    /* 메뉴관리 */
+    .surveyTable .list.temListType .radioType1 p{margin-right:15px;}
+    /* // 2020-01-15 추가 */  
+}
+
+/* 2019-08-27 추가 */
+@media screen and (max-width:1200px){
+    .labDetail .boardArea .searchType .boardList .boardTable .list .tit{width:45%}
+    .labDetail .boardArea .searchType .boardList .boardTable .list .people{width:30%;}
+    .boardArea .boxStyle .qOption .list.etc .right .chkArea .inputTxt input{width:70px}/* 2020-02-25 추가 */
+    /* 2020-01-15 추가 */
+    /* 메뉴관리 */
+    .surveyTable .list.temListType .radioType1 p:last-child{display:block; margin-top:10px;}
+    /* // 2020-01-15 추가 */    
+}
+/* // 2019-08-27 추가 */
+
+@media screen and (max-width:1023px) {/* 태블릿 세로 */
+    /* common */
+    .boardListWrap{margin-top:0;}
+    .boardList{margin-bottom:0;}
+    .boardList:last-child{display:none;}
+    .boardList .boardTit{display:none;}
+    .boardList .viewMore{display:none;}
+    .boardList .boardTable{border-top:none;}
+    .boardList .boardTable .list {display:block;}
+    .boardList .boardTable .list .tit{display:block; width:100%; padding:0 3%;} 
+    .boardList .boardTable .list .date{display:block; margin-top:15px; width:100%; padding:0 3%; text-align:left;}  
+    /* //common */
+
+    /* 설문조사참여 */
+    .rschStep .qArea .dotResult{padding:0;}
+    .rschStep .qArea .grayBtn.small{margin-top:10px;}
+    .rschStep .qArea .choOpt .videoDiv{position:relative; width:100%; height:0; padding-bottom:56.25%;} /* 2020-03-17 임의수정 */
+    .rschStep .qArea .choOpt .userSel{margin-bottom:25px; padding:15px;}
+    .rschStep .qArea .choOpt .userSel .list{float:none; margin-bottom:5px;}
+    .rschStep .qArea .choOpt .userSel .list:last-child{margin-bottom:0;}
+    .rschStep .qArea .choOpt .userSel .list select{width:calc(100% - 45px);}
+    .rschStep .qArea .choOpt .userSel .list .popSubTit{margin:0 5px 0 0; font-size:15px;}
+    .rschStep .qArea .exList .listWrap{padding:15px 38px 40px;}
+    .rschStep .qArea .exList .listWrap p{margin:25px 45px 0 0;}
+    .rschStep .qArea .exList .listWrap p:nth-child(4n+1){clear:none;}
+
+    .boardTab{display:block; position:absolute; left:0; width:100%; background:#fff; z-index:3;}
+    .boardTab:after{content:''; display:block; clear:both;}
+    .boardTab a{display:block; float:left; width:50%; height:50px; font-family:'HyundaiSansTextKRMedium', sans-serif; color:#777; text-align:center; font-size:16px; line-height:48px; background:#fff; border-bottom:1px solid #e5e5e5;}
+    .boardTab a.on{color:#000; border-bottom:2px solid #00aad2;}    
+
+    .surveyTable .attachArea{width:100%;}
+    .surveyTable.result > .list.float .con .inputArea.float .inputDiv{margin-top:5px;}
+
+    .labMenuArea{position:absolute; left:0; top:85px; width:100%;}
+    .labMenuArea .openLabMenu{position:absolute; left:5%; top:50%; -webkit-transform:translateY(-50%); transform:translateY(-50%); width:25px; height:18px; background:url(../images/lab_menu_btn.png) 0 0 no-repeat; background-size:25px 18px;}
+    .labMenuArea.color6 .openLabMenu, .labMenuArea.color7 .openLabMenu, .labMenuArea.color8 .openLabMenu {background-image:url("../images/lab_menu_btn_b.png");}
+    .labMenuArea .goListBtn{width:18px; height:18px; padding-left:0; text-indent:-9999px; font-size:0; overflow:visible; vertical-align:top;}
+    .labMenuArea .setBtn{vertical-align:top;}
+    .labMenuArea .headerTit{position:absolute; left:50%; top:50%; -webkit-transform:translate(-50%, -50%); transform:translate(-50%, -50%); font-family:'HyundaiSansTextKRMedium', sans-serif; color:#fff; font-size:17px; text-align:center;}
+    .labMenuArea.color6 .headerTit, .labMenuArea.color7 .headerTit, .labMenuArea.color8 .headerTit {color:#000;}
+    .labMenuArea.fixed{position:fixed; left:0; top:0; width:100%; z-index:1;}
+    .labInfo{margin-top:60px;}
+    .labInfo.fixed{position:fixed; top:60px; left:0; width:100%; margin-top:0; z-index:1}
+    .labInfo .topArea .infoArea{padding:30px 0;}
+    .labInfo .topArea .infoArea .txtArea .tit{font-size:28px;}
+    .labInfo .topArea .infoArea .txtArea .txt{margin:20px 0; font-size:16px; line-height:22px;}
+    .labInfo .topArea .infoArea .txtArea .bMarkBtn{padding:0 15px; border:1px solid rgba(255,255,255,0.9);}
+    .labInfo .botArea .memCount{padding-left:27px; background-size:20px auto;}
+    /* 2019-08-27 추가 */
+    .labInfo .botArea .schView.labSch{position:relative; top:auto; right:auto; transform:none; margin-top:15px;}
+    .labInfo .botArea .schView.labSch .schArea select{width:100%; margin-bottom:5px;}
+    .labInfo .botArea .schView.labSch .schArea .inputBox {width:100%;}
+    .labInfo .botArea .schView.labSch .schArea .inputBox input{width:100%;}
+    /* // 2019-08-27 추가 */
+    .labDetail{margin:0; padding:0;}
+    .labDetail .panelInfo{position:absolute; left:-100%; top:0; width:100%; padding-bottom:0; z-index:10;}
+    .labDetail .panelInfo .utilBtn{display:block; position:relative; padding:16px 5%; height:50px; background:#fff;}
+    .labDetail .panelInfo .utilBtn a{position:relative; padding-right:12px; margin-right:9px;}
+    .labDetail .panelInfo .utilBtn a:after{content:''; display:block; position:absolute; right:0; top:8px; width:2px; height:2px; border-radius:50%; background:#d9d9d9;}
+    .labDetail .panelInfo .utilBtn a:last-child{margin-right:0; padding-right:0;}
+    .labDetail .panelInfo .utilBtn a:last-child:after{display:none;}
+    .labDetail .panelInfo .utilBtn a:last-child.on{position:relative; padding-right:20px;}
+    .labDetail .panelInfo .utilBtn a:last-child.on:before{content:"N"; display:block; position:absolute; top:0; right:0; font-family:'HyundaiSansHeadKRBold', sans-serif; font-size:14px; color:#e63312; line-height:20px;}
+    .labDetail .panelInfo .utilBtn.fArea{padding:40px 5% 20px; overflow:hidden; height:auto; background:none;}
+    .labDetail .panelInfo .utilBtn.fArea a:after{top:3px; width:1px; height:10px; background:#e1e1e1;}
+    .labDetail .panelInfo .utilBtn.fArea .logoutBtn{float:left;}
+    .labDetail .panelInfo .utilBtn.fArea .logoutBtn:after{display:none;}
+    .labDetail .panelInfo .utilBtn.fArea .rightBtn{float:right;}
+    .labDetail .panelInfo .bodyArea{height:calc(100% - 50px); overflow-y:auto;}
+    .labDetail .panelInfo .bodyArea .myPoint{padding:19px 5%;}
+    .labDetail .panelInfo .bodyArea .myPost{padding:20px 5%;}
+    .labDetail .panelInfo .bodyArea .labList{padding:0 5%;}
+    .labDetail .panelInfo .bodyArea .labList .exnpandBtn{display:none;}
+    .labDetail .panelInfo .bodyArea .labList > .list .postList .list{padding:8px 0 8px 25px; background-size:6px;}
+    .labDetail .panelInfo .bodyArea .labList > .list .postList .list:last-child{background-size:6px;}
+    .labDetail .panelInfo .bodyArea .utilBtn.fArea{display:block;}
+    .labDetail .panelInfo .xBtn{display:block; position:absolute; right:5%; top:16px; width:17px; height:17px; background:url(../images/panelInfo_close_btn.png) 0 0 no-repeat; background-size:17px;}
+    .labDetail .boardArea .rschStep .indicator{width:90%; margin:0 auto;}
+    .labDetail .boardArea .rschStep .btnWrap{right:5%;}
+    .labDetail .boardArea .rschStep .qAreaWrap{padding:40px 5%;}
+    .labDetail .boardArea .rschStep .qArea .dotResult li{margin-bottom:10px;}
+    .labDetail .boardArea .rschStep .qArea .dotResult li:last-child{margin-bottom:0;}
+    .labDetail .boardArea .rschStep .qArea .dotResult li p{font-size:14px;}
+    .labDetail .boardArea .rschStep .qArea .dotResult li p:first-child{padding-left:0;}
+    .labDetail .boardArea .rschStep .qArea .dotResult li p:last-child{padding-right:0;}
+    .labDetail.manage{padding-bottom:55px;}
+    .labDetail.manage .panelInfo{position:static; left:0;}
+    .labDetail.manage .boardArea{position:fixed; top:100%; left:0; z-index:20;}
+    .labDetail.manage .boardArea .surveyWrap{position:static; width:100%; height:calc(100% - 60px); padding-bottom:75px; overflow-y:auto;}
+    .labDetail.manage .plusBtn{position:fixed; left:0; top:auto; bottom:0; width:100%; z-index:11; height:45px;}
+    .labDetail.manage .plusBtn span{line-height:45px;}
+    .labDetail.manage .boardArea .btnWrap{position:absolute; left:0; bottom:0; margin-top:0; width:100%;}
+    .labDetail.manage .boardArea .btnWrap a{float:right; display:block; width:50%; height:45px; line-height:45px;}
+    .labDetail.manage .boardArea .btnWrap .closeBtn{display:block; margin:0; color:#fff; background:#555;}
+    .labDetail.manage.static{padding-bottom:0;}
+    .labDetail.manage.static .plusBtn{position:static; display:inline-block; margin-top:10px; width:100%; height:45px;}
+    .reasonNoti{width:90%; margin:30px auto 0;}
+    .reasonNoti .subTit{margin-bottom:15px; font-size:18px;}
+    .boardArea{width:100%;} 
+    .boardArea .tabWrap{margin-top:0; padding:0 5%;}
+    .boardArea .tabWrap.typeZ{margin-top:20px;}/* 2020-02-25 추가 - 버튼 태블릿, 모바일에서 margin 있는 경우 */
+    .boardArea .rschTab{margin:30px 0 25px 0;}
+    .boardArea .writeType3{width:90%; margin:0 auto;}
+    .boardArea .majorImg{display:none;} 
+    .boardArea .topTit{padding:30px 5% 0; margin-bottom:0;}
+    .boardArea .surveyWrap{width:90%; margin:auto;}
+    .boardArea .surveyWrap .essentialTxt{margin-top:15px;}
+    .boardArea .boardUseTip{border:none; border-bottom:1px solid #e5e5e5;}
+    .boardArea .viewType .titArea .listTit{padding-right:0;}
+    .boardArea .viewType .titArea .date{float:left; margin-top:20px;}
+    .boardArea .viewType .conArea{width:90%; margin:0 auto;}
+    .boardArea .viewType .commentArea{padding-top:0;}
+    .boardArea.onlyList{margin-top:50px;}
+    .boardArea.hasTab{margin-top:50px;}
+    .boardArea.hasTab .boardList .noData{border-top:0; border-bottom:1px solid #e5e5e5;}
+    /* 2020-01-21 추가 */
+    .boardArea .reviewType{padding:0 2%; width:500px} /* 2020-02-26 임의추가 */
+    .attachArea.staffDiv{width:90%; padding:20px 30px;}
+    .attachArea.staffRepDiv .commentArea{width:100%;}
+    .resarchPop{width:90%;}
+    
+    /* 2019-08-27 추가 */
+    .labDetail .boardArea .searchType .boardList .boardTit{display:block; width:100%; margin-bottom:10px; padding:10px 3%;  padding:20px 3%; border-bottom:1px solid #e5e5e5; font-size:17px; line-height:20px;}
+    .labDetail .boardArea .searchType .boardList .boardTable .list .tit{width:100%;}
+    .labDetail .boardArea .searchType .boardList .boardTable .list .date{width:100%; padding:0 3%;}
+    .labDetail .boardArea .searchType .boardList .boardTable .list .people{display:block; width:100%; margin-top:8px; padding:0 3%; text-align:left;}
+    .labDetail .boardArea .searchType .boardList .boardTable .list .people .level{min-width:auto;}
+    .labDetail .panelInfo .bodyArea .labList > .list .titArea a:not(.blueBtn){padding:22px 60px 22px 0;}
+    .labDetail .panelInfo .bodyArea .labList > .list .titArea a:not(.blueBtn).hasList{padding:22px 60px 22px 0;}
+    .labDetail.manage .panelInfo .bodyArea .labList > .list .postList .qName{padding:15px 60px 15px 33px}
+    /* // 2019-08-27 추가 */
+    
+    /* 2020-01-15 추가 */
+    /* 메뉴관리 */
+    .surveyTable .list.temListType .radioType1 p:last-child{display:inline-block; margin-top:0}
+    /* // 2020-01-15 추가 */    
+    /* 2020-02-25 추가 */
+    /* 고급 문항등록 페이지 상위문항 결과값 승계 기능안내 시작 팝업 */
+    .layerPop.succPop .boxListDiv .list .tit{width:30%;}
+    .layerPop.succPop .boxListDiv .list .con{width:70%}
+    .layerPop.succPop .boxListDiv .list .con .gryBox .con .redTxt br{display:none;}
+    .layerPop.succPop .boxListDiv .list .con .gryBox .tit{width:30%}
+    .layerPop.succPop .boxListDiv .list .con .gryBox .con{width:70%}
+    /* 고급 문항등록 페이지 보기카드 등록 팝업 */
+    .layerPop.regiPop .regiArea .listDiv .list .tit{width:30%;}
+    .layerPop.regiPop .regiArea .listDiv .list .con{width:70%}
+    /* //  2020-02-25 추가 */    
+}
+
+@media screen and (max-width:758px) { /* 모바일 */
+    
+    .labDetail .boardArea .searchType .boardList .boardTit{background:#f5f5f5;}/* 2019-08-27 추가 */
+    
+    .vertiInfo p{margin-right:4px; padding-right:9px; font-size:13px;}
+    .vertiInfo p:after{height:11px;}    
+
+    /* 설문조사참여 */
+    .rschStep .indicator{margin-top:19px;}
+    .rschStep .indicator .logo{float:none; font-size:22px;}
+    .rschStep .indicator .progress{float:none; margin-top:15px;}
+    .rschStep .indicator .progress:after{content:''; display:block; clear:both;}
+    .rschStep .indicator .progress .tit{margin-right:0; line-height:1;}
+    .rschStep .indicator .progress .barWrap{float:right; width:calc(100% - 65px); height:16px; font-size:12px;}
+    .rschStep .indicator .progress .barWrap .curNum{line-height:17px;}
+    .rschStep .indicator .progress .barWrap span{line-height:17px;}
+    .rschStep .rschTit{margin-top:20px; padding:20px 15px;}
+    .rschStep .rschTit .tit{float:none; margin-bottom:5px; font-size:18px;}
+    .rschStep .qArea{margin-top:20px;}
+    .rschStep .qArea .question{margin-top:15px; font-size:14px; line-height:20px;}
+    .rschStep .qArea .questionCard{font-size:14px; line-height:20px;} /* 2020-03-17 임의수정 */
+    /*.rschStep .qArea .choOpt{margin-top:12px;} 2020-03-17 임의제거*/
+    .rschStep .qArea .choOpt textarea{height:200px;}
+    .rschStep .qArea .choOpt .radioType1 p {margin-bottom:5px;}
+    .rschStep .qArea .choOpt .radioType1 label{font-size:14px;}
+    .rschStep .qArea .choOpt .chkType2 label{font-size:14px;}
+    .rschStep .qArea .choOpt .userSel{margin-bottom:25px; padding:15px;}
+    .rschStep .qArea .choOpt .userSel .list{float:none; margin-bottom:5px;}
+    .rschStep .qArea .choOpt .userSel .list:last-child{margin-bottom:0;}
+    .rschStep .qArea .choOpt .userSel .list select{width:calc(100% - 45px);}
+    .rschStep .qArea .choOpt .userSel .list .popSubTit{margin:0 5px 0 0; font-size:15px;}
+    .rschStep .qArea .choOpt .radioList{margin-bottom:25px;}
+    .rschStep .qArea .choOpt .radioList:last-child{margin-bottom:0;}
+    .rschStep .qArea .choOpt .radioList .tit{font-size:15px;}
+    .rschStep .qArea .choOpt .radioList .radioType1{margin-top:5px;}
+    .rschStep .qArea .choOpt .videoDiv{position:relative; width:100%; height:0; padding-bottom:56.25%;} /* 2020-03-17 임의수정 */
+    .rschStep .qArea .choOpt.criterion .radioList .tit{margin-bottom:7px; font-size:15px; line-height:1;}
+    .rschStep .qArea .choOpt.criterion .optWrap {display:block;}
+    .rschStep .qArea .choOpt.criterion .optWrap select {width:100%;}
+    .rschStep .qArea .grayBtn.small{font-size:14px;}
+    .rschStep .qArea .exList .listWrap{margin-top:10px; padding:15px;}
+    .rschStep .qArea .exList .listWrap p{float:none; margin-bottom:5px;}
+    .rschStep .qArea .exList .listWrap p{margin-top:0;}
+    .rschStep .qArea .exList .listWrap p:nth-child(n+5){margin-top:0;}
+    .rschStep .qArea .exList .listWrap p:last-child{margin-bottom:0;}
+    .rschStep .qArea .exList .listWrap p span{margin-right:6px; font-size:14px;}
+    .rschStep.end .endBox{position:relative; padding:0; height:calc(100vh - 65px);}
+    .rschStep.end .endBox > div{position:absolute; top:40%; -webkit-transform:translateY(-50%); transform:translateY(-50%); padding-top:80px; background-size:44px auto;}
+    .rschStep.end .endBox > div .tit{font-size:20px;}
+    .rschStep.end .endBox > div .txt{font-size:15px; line-height:19px;}
+
+    /* 문의게시판 */
+    .askAnswer{}
+    .askAnswer .tit{margin:25px 0 15px; font-size:18px;}
+    .askAnswer .box{padding:0 15px;}
+    .askAnswer .box .top{padding:20px 0 15px;}
+    .askAnswer .box .top .txt{float:none; padding-left:45px; font-size:15px; line-height:20px;}
+    .askAnswer .box .top .txt:before{top:0; width:35px; height:35px; font-size:15px; line-height:35px;}
+    .askAnswer .box .top .time{float:none; margin-top:5px; padding-left:45px; font-size:13px;}
+    .askAnswer .box .con{padding:10px 0 20px; font-size:14px; line-height:20px;}
+
+
+    /* lab 상세페이지 */
+    .surveyTable{padding:0;}
+    .surveyTable .list{margin-bottom:0; padding:15px 0; border-bottom:1px solid #e5e5e5;}
+    .surveyTable .list .tit{font-size:15px;}
+    .surveyTable .list .tit p{display:block; margin-left:0; margin-top:10px; font-family:'HyundaiSansTextKRRegular', sans-serif; }
+    .surveyTable .list .chkType2{margin-left:8px;}
+    .surveyTable .list .con .periodSel:last-child{margin-top:15px;}
+    .surveyTable .list .con .periodSel .yearSel{float:none; margin-right:0;}
+    .surveyTable .list .con .periodSel .yearSel:after{content:''; display:block; clear:both;}
+    .surveyTable .list .con .periodSel .yearSel select{float:left; margin-right:1%; width:32%;}
+    .surveyTable .list .con .periodSel .yearSel select:last-child{width:33%;}
+    .surveyTable .list .con .periodSel .timeSel{float:none;}
+    .surveyTable .list .con .periodSel .timeSel input{margin-right:1%; width:32%;}
+    .surveyTable .list .con .periodSel .timeSel input:last-of-type{margin-left:20px;}
+    .surveyTable .list .con .periodSel .timeSel span{margin-left:15px;}
+    .surveyTable .list.float .con .inputT{padding-left:5px;}/* 2020-02-25 추가 */
+    .surveyTable .list.float.hasBox{padding:15px 0;}
+    .surveyTable .list.float.hasBox .tit{margin-top:0;}
+    .surveyTable .list.float.hasTable{padding-bottom:0; border-bottom:0;}
+    .surveyTable .list.float.hasTable .tit{margin-top:0; margin-bottom:0;}
+    .surveyTable .list.float.hasTable .smBlueBtn{margin-bottom:10px;}
+    .surveyTable .list.float.hasTable .tableType2 {margin-top:15px;}
+    .surveyTable .list.float .con .txtLimit{}
+    .surveyTable .list.float .con .txtLimit input{padding:0 10px;}
+    .surveyTable .list.float .con .txtLimit .count{position:static; right:0; top:0; -webkit-transform:translateY(0); transform:translateY(0); float:right; margin-top:5px;}
+    .surveyTable .list.largeMt{margin-top:30px; padding:0; border-bottom:0;}
+    .surveyTable .list.largeMt .tit{margin-bottom:15px;}
+    .surveyTable .list.borderDiv2{margin-top:0; border-top:0;}/* 2020-02-25 추가 */
+    .surveyTable .borderDiv {margin-top:40px; padding:0; border-top:1px solid #e5e5e5; border-bottom:0;}
+    .surveyTable .borderDiv .list.float .tit {margin-top:0; line-height:22px;}
+    .surveyTable .attachArea.box{margin-top:20px; padding:15px 10px; border:1px solid #e5e5e5;}
+    .surveyTable .attachArea.box .tit{font-size:15px; line-height:1; margin-right:0; margin-bottom:15px;}
+    .surveyTable .attachArea.box .tit .grayT {color:#777;}
+    .surveyTable .attachArea.box .fileDiv .fileChoice{margin-right:0;}
+    .surveyTable .attachArea.box .fileDiv .fileChoice input{width:70px; height:25px;}
+    .surveyTable.result {margin-top:30px; padding:0;}
+    .surveyTable.result .list {margin-bottom:0; padding:15px 0; border-bottom:1px solid #e5e5e5;}
+    .surveyTable.result > .list.float .tit {width:100%;}
+    .surveyTable.result > .list.float .con {margin-top:5px; width:100%;}
+    .surveyTable.result > .list.float .con .txt {line-height:22px;}
+    .surveyTable.result > .list.hasTable {padding:30px 0 10px;}
+    .surveyTable.result > .list.hasTable .tableType2 {margin-bottom:30px;}
+    .surveyTable.result > .list.hasTable .tit {margin-bottom:20px;} 
+    .surveyTable.result > .list.float .con .inputArea.float:after {content:""; display:block; clear:both;}
+    .surveyTable.result > .list.float .con .inputArea.float .selectDiv {float:left; margin-right:10px; width:100%; /*width:200px;*/}
+    .surveyTable.result > .list.float .con .inputArea.float .selectDiv select {width:100%;}
+    .surveyTable.result > .list.float .con .inputArea.float .inputDiv {float:left; width:100%;}
+    .surveyTable.result > .list.float .con .inputArea.float .inputDiv input {width:calc(100% - 79px);}
+    .surveyTable.result > .list.float .con .inputArea.float .inputDiv .grayBtn {/*margin-left:2px; padding:0 24px; */height:35px; line-height:35px;}
+    .surveyTable.result .attachArea {padding-left:0;}
+    .surveyTable.result .attachArea .tit {margin-right:0; width:140px;}
+    .surveyTable.result .rschStep{padding:0 3% 30px;}
+    .surveyTable.result .rschStep .qArea{margin-top:20px;}
+    .surveyTable.result .rschStep .qArea:first-child{margin-top:15px;}
+    .labDiv2 .surveyTable.result{margin-top:0;}
+    /* 2020-01-15 추가 */
+    /* 메뉴관리 */
+    /* .surveyTable .list.temListType .radioType1 p:last-child{margin-right:0;} */
+    .surveyTable .list.temListType .temTxtBox .dotTxt{padding-left:10px; font-size:14px; line-height:24px;}
+    .surveyTable .list.temListType .temTxtBox .dotTxt:after{top:10px; width:3px; height:3px;}
+    .surveyTable .list.temListType .temTxtBox{padding:10px 15px;}
+    .surveyTable .list.temListType .temTxtBox.type2 textarea{padding:10px 15px; font-size:14px; line-height:24px;}
+    /* // 2020-01-15 추가 */
+    .labMenuArea{top:50px; height:51px;}
+    .labMenuArea .openLabMenu{left:3%; width:18px; height:14px; background-size:18px 14px;}
+    .labMenuArea .goListBtn{width:13px; height:13px; background-size:13px;}
+    .labMenuArea .goListBtn .goListLinks {max-height:220px;}    
+    .labMenuArea .setBtn{margin-left:11px; width:14px; height:14px; background-size:14px;}
+    .labMenuArea.fixed{height:60px; padding:23px 0; z-index:2; border-bottom:1px solid rgba(0,0,0,0.15);}
+    .labMenuArea.fixed .inner {padding:0; border:0;}
+    .labInfo{margin-top:51px;}
+    .topAreaDimd{display:block; position:absolute; left:0; top:101px; width:100%; height:100%;}
+    .topAreaDimd.fixed{position:fixed; top:60px; left:0;}
+    .labInfo.fixed{position:fixed; top:60px; left:0; z-index:0;}
+    .labInfo .topArea{/*height:223px;*/}
+    .labInfo .topArea .infoArea{padding:20px 0 25px;}
+    .labInfo .topArea .infoArea .imgArea{width:100px; height:92px; margin-right:7%;}
+    .labInfo .topArea .infoArea .txtArea{width:calc(93% - 100px);}  
+    .labInfo .topArea .infoArea .txtArea .category{margin:0 0 10px;}
+    .labInfo .topArea .infoArea .txtArea .category span{margin:0 5px 5px 0; height:20px; font-size:12px; line-height:20px;}
+    .labInfo .topArea .infoArea .txtArea .tit{font-size:21px; line-height:23px;}
+    .labInfo .topArea .infoArea .txtArea .txt{margin:10px 0; font-size:14px; line-height:18px;}
+    .labInfo .topArea .infoArea .txtArea .bMarkBtn span{padding-left:17px; font-size:13px; line-height:28px; background-size:12px;}
+    .labInfo .botArea{padding:13px 0; /*height:40px;*/}/* 2019-08-27 수정 */
+    .labInfo .botArea .memCount{font-size:13px;}
+    .labInfo .botArea .revCount{font-size:13px;} /* 2020-03-05 임의추가 */ /*검토진행상태 카운팅*/
+
+    .labDetail .panelInfo .utilBtn a{margin-right:6px; padding-right:11px; font-size:13px;}
+    .labDetail .panelInfo .utilBtn a:last-child.on{padding-right:15px;}
+    .labDetail .panelInfo .utilBtn a:last-child.on:before{font-size:12px; line-height:16px;}
+    .labDetail .panelInfo .utilBtn.fArea a{vertical-align:top;}
+    .labDetail .panelInfo .bodyArea .panelProfile{padding:31px 0 29px;}
+    .labDetail .panelInfo .bodyArea .panelProfile .img{width:60px; height:54px; margin:0 auto;}
+    .labDetail .panelInfo .bodyArea .panelProfile .img img{width:15px;}
+    .labDetail .panelInfo .bodyArea .panelProfile .level{margin-bottom:12px; width:60px; height:23px; line-height:23px; font-size:11px;}
+    .labDetail .panelInfo .bodyArea .panelProfile .level .viewLevel{right:-5px; top:-5px; width:15px; height:15px; font-size:10px; line-height:15px;}
+    .labDetail .panelInfo .bodyArea .panelProfile .name{font-size:15px;}
+    .labDetail .panelInfo .bodyArea .myPoint{padding:17px 3%; font-size:16px;}
+    .labDetail .panelInfo .bodyArea .myPost{padding:20px 3%;}
+    .labDetail .panelInfo .bodyArea .myPost .list{margin-top:16px; font-size:14px;}
+    .labDetail .panelInfo .bodyArea .labList{margin-bottom:0; padding:0 3%;}/* 2019-10-31 수정 */
+    .labDetail .panelInfo .bodyArea .labList > .list .titArea a:not(.blueBtn){padding:18px 60px 18px 0; font-size:15px;}/* 2019-08-27 수정 */
+    .labDetail .panelInfo .bodyArea .labList > .list .titArea a:not(.blueBtn).hasList{padding:25px 60px 18px 0;}/* 2019-08-27 수정 */
+    .labDetail .panelInfo .bodyArea .labList > .list .titArea p:not(.blueBtn){padding:18px 0; font-size:15px;}
+    .labDetail .panelInfo .bodyArea .labList > .list .titArea p:not(.blueBtn).hasList{padding:25px 0 18px;}
+    .labDetail .panelInfo .bodyArea .labList > .list .postList .list{padding:8px 0 8px 18px; font-size:14px; line-height:19px; background-position:0 bottom, 5px center;}
+    .labDetail .panelInfo .bodyArea .labList > .list .postList .list:last-child{background:url(../images/sub_post_icon.png) 5px center no-repeat;}
+    .labDetail .boardArea .rschStep{margin-top:40px; padding-top:6px;}
+    .labDetail .boardArea .rschStep .indicator{width:94%;}
+    .labDetail .boardArea .rschStep .indicator .logo{font-size:18px;}
+    .labDetail .boardArea .rschStep .btnWrap{right:0;}
+    .labDetail .boardArea .rschStep .qAreaWrap{margin-top:15px; padding:20px 3%;}
+    .labDetail .boardArea .rschStep .qArea .question{font-size:14px; line-height:20px;}
+    .labDetail .boardArea .rschStep .qArea .choOpt{margin-top:15px;}
+    .labDetail.manage .panelInfo .bodyArea .labList{padding-bottom:25px;}
+    .labDetail.manage .panelInfo .bodyArea .labList > .list .titArea a:first-child{width:calc(100% - 30px);}
+    .labDetail.manage .panelInfo .bodyArea .labList > .list .boardKind{width:calc(100% - 30px); padding:26px 0 17px;}
+    .labDetail.manage .panelInfo .bodyArea .labList > .list .chkType2{}
+    .labDetail.manage .panelInfo .bodyArea .labList > .list .postList .qName{padding:10px 60px 10px 33px; font-size:14px; line-height:18px;}/* 2019-08-27 수정 */
+    .labDetail.manage .delArea{height:50px; padding:15px;}
+    .labDetail.manage .delArea .tit{font-size:16px;}
+    .labDetail.manage .delArea .delBtn{right:15px; top:16px; background-size:15px auto;}
+    .labDetail.manage .boardArea .surveyTable{padding:0 15px;}
+    .labDetail.manage .boardArea .surveyTable .periodTxt {margin:0 5px; line-height:35px;}
+    .labDetail .boardArea .surveyTable .list .con .periodSel:last-child {margin-top:10px;}
+    .labDetail .boardArea .surveyTable .list .con .periodSel .yearSel {float:left; width:calc(100% - 20px);}
+    .labDetail .boardArea .surveyTable .list .con .periodSel.hasTime .yearSel {float:none; width:100%;}
+    .labDetail .boardArea .surveyTable .list .con .periodSel.hasTime .timeSel{margin:5px 0 0 0; width:calc(100% - 20px);}
+    .labDetail .boardArea .surveyTable .list .con .periodSel.hasTime .timeSel select{float:left; width:48%; margin-right:1%;}
+    .labDetail .boardArea .surveyTable .list .con .periodSel.hasTime .timeSel select:last-child{width:50%;}
+    .labDetail .boardArea .surveyTable .list .con .periodSel.hasTime span{float:left; margin:0; line-height:35px;}
+    .labDetail .boardArea .surveyTable .periodTxt {float:left; margin:0 5px; line-height:35px;}
+
+    /* 2019-10-31 추가*/
+    .labDetail .endArea .tit{height:auto; padding:18px 60px 18px 3%; font-size:15px; line-height:20px; background:url("../images/end_off_icon.png") right 3% center no-repeat #dddad9; background-size:13px 13px;}
+    .labDetail .endArea .tit.on{background:url("../images/end_on_icon.png") right 3% center no-repeat #dddad9; background-size:13px 13px;}
+    .labDetail.manage .endArea .tit{height:50px; padding:0 15px; font-size:16px; line-height:50px; background:url("../images/end_off_icon.png") right 15px center no-repeat #f5f5f5; background-size:13px 13px;}
+    .labDetail.manage .endArea .tit.on{background:url("../images/end_on_icon.png") right 30px center no-repeat #f5f5f5; background-size:13px 13px;}
+    .labDetail .panelInfo .endArea .bodyArea .labList > .list .titArea p:not(.blueBtn).hasList{padding:18px 60px 18px 3%;; line-height:20px;}
+    .labDetail .panelInfo .endArea .bodyArea .labList > .list .postList .list{position:relative; padding-right:25px;}
+    .labDetail .panelInfo .endArea .bodyArea .labList > .list .postList .list a.delBt{position:absolute; top:50%; transform:translateY(-50%); right:0; width:18px; height:18px; background:url("../images/end_del_icon.png") center no-repeat; background-size:14px 14px; text-indent:-9999px; overflow:hidden;}
+    /* // 2019-10-31 추가*/
+    
+    .reasonNoti .grayBox{padding:45px 10px 35px;}
+    .reasonNoti .grayBox .txt{padding:15px 0 15px 50px; font-size:14px; text-align:left; background-size:40px;}
+    .reasonNoti .grayBox .date{top:18px; right:10px; font-size:13px;}
+    
+    .boardTab a{height:40px; font-size:13px; line-height:38px;}
+    .boardTab.fixed{position:fixed; top:60px; left:0; width:100%;}
+    .boardTab + .boardArea.hasTab{margin-top:40px;}
+
+    .boardList .boardTable .list .tit.new:after{margin-left:5px; font-size:11px;}
+    .boardList .boardTable .list .tit .notiTxt{font-size:13px; line-height:1.1;}
+    .boardList .boardTable .list .tit .titTxt{font-size:16px;}
+    .boardList .boardTable .list .date{display:block; margin-top:13px; padding:0 3%; text-align:left; font-size:13px;}
+    .boardList .boardTable.type2 .list{}
+    .boardList .boardTable.type2 .list .tit{display:block; width:100%; padding-left:60px; font-size:14px; line-height:18px;}
+    .boardList .boardTable.type2 .list .tit .dDay{position:absolute; left:0; top:50%; margin-right:0; width:41px; height:20px; font-size:11px; line-height:20px;}
+    .boardList .boardTable.type2 .list .member{display:block; padding:3px 0 0 60px; text-align:left;}
+    .boardList .boardTable .list .member span{padding-left:11px; font-size:12px; background-size:8px;}
+
+    .boardArea{position:relative; margin-top:0; padding-bottom:60px; z-index:2;}
+    .boardArea .tabWrap{margin-top:0; padding:0 3%;}
+    .boardArea .tabWrap .rschTab a{padding-right:7px; margin-right:4px;}
+    .boardArea .tabWrap .btnWrap{float:right; margin:0 auto;}
+    .boardArea .surveyWrap{width:94%;}
+    .boardArea .rschTab{margin:20px 3% 15px 0;}
+    .boardArea .rschTab a{margin-right:4px; padding-right:9px; font-size:13px;}
+    .boardArea .boardUseTip{margin-bottom:0; padding:21px 3% 24px; border-bottom:0; background:#f5f5f5;}
+    .boardArea .boardUseTip .tit{font-size:17px; line-height:20px;}
+    .boardArea .boardUseTip .txt{margin-bottom:13px; font-size:13px;}
+    .boardArea .boardUseTip .txt span{font-size:14px;}
+    .boardArea .boardUseTip .vertiInfo{margin-top:10px;}
+    .boardArea .boardUseTip.research{padding:21px 3% 24px; background:#f5f5f5;} /* 설문등록 페이지 */
+    .boardArea .boardUseTip.pcStyle{background:#fff; border-bottom:1px solid #d6d5d3;}
+    .boardArea .topTit{margin-bottom:30px; font-family:'HyundaiSansHeadKRRegular', sans-serif; color:#000; font-size:26px;}
+    .boardArea .surveyTable > .list.float .tit{float:none; width:100%;}
+    .boardArea .surveyTable > .list.float .con{float:none; margin-top:5px; width:100%;}
+    .boardArea .surveyTable > .list .con span.notiTxt{margin:0 0 15px 0;}
+    .boardArea .viewType .titArea .listTit{font-size:20px; line-height:25px;}
+    .boardArea .viewType .titArea .date{margin-top:15px; font-size:12px;}
+    .boardArea .viewType .conArea{width:94%; margin:0 auto; padding:15px 0 40px; line-height:21px;}
+    .boardArea .viewType .conArea .conTxt .img{margin-bottom:20px;}
+    .boardArea .viewType .conArea .reportBtn{bottom:15px; padding-left:16px; font-size:13px; background-size:10px; background-position:left 5px;}
+    .boardArea .viewType .commentArea{width:100%;}
+    .boardArea .writeType3{width:94%;}
+    .boardArea .writeType3 .rightDiv input.fluid{width:100%; margin-bottom:5px;}
+    .boardArea .writeType3 .rightDiv textarea{height:200px; font-size:14px; line-height:20px;}
+    .boardArea.onlyList{margin-top:0;}
+    
+    .boardArea .boxStyle{margin-bottom:20px; padding:15px 4%;}
+    .boardArea .boxStyle .plusBtn{position:absolute; right:4%; top:44px; padding:0 19px; height:27px; background:#555;}
+    .boardArea .boxStyle .plusBtn span{padding-right:15px; font-size:13px; line-height:27px; background-size:10px;}
+    .boardArea .boxStyle .qOption .list{margin-bottom:15px; padding:0 !important; border-bottom:0 !important;}
+    .boardArea .boxStyle .qOption .list .left{float:none; width:100%; margin-right:0; text-align:left;}
+    .boardArea .boxStyle .qOption .list .left p{color:#000; line-height:1;;}
+    .boardArea .boxStyle .qOption .list .right{float:none; margin-top:15px; width:100%;}
+    .boardArea .boxStyle .qOption .list .right input[type="text"] {padding-right:30px;}
+    .boardArea .boxStyle .qOption .list .right .radioType1{}
+    .boardArea .boxStyle .qOption .list .right .radioType1 p{position:relative; display:inline-block; margin-left:18px;}
+    .boardArea .boxStyle .qOption .list .right .radioType1 p:first-child{margin-left:0;t}
+    .boardArea .boxStyle .qOption .qArea .right {margin-top:5px;}
+    .boardArea .boxStyle .qOption .list .optDeleteBtn{right:3%;}
+    .boardArea .boxStyle .qOption .list.etc{margin:-3px 0 15px;}
+    .boardArea .boxStyle .qOption .list.etc .right{padding-top:0;}
+    .boardArea .boxStyle .qOption .list.etc .right .chkType2{margin-left:0;}
+    .boardArea .boxStyle .qOption .list.etc .right .plusEtc{margin-left:10px; font-family:'HyundaiSansTextKRRegular', sans-serif;}
+    .boardArea .boxStyle .qOption .list.opt p{line-height:1;}
+    .boardArea .boxStyle .qOption .list:last-child{margin-bottom:0;}
+    .boardArea .boxStyle.makeQ .tit{float:none; line-height:1;}
+    .boardArea .boxStyle.makeQ .makeOpt{float:none; margin-top:15px;}
+    .boardArea .boxStyle.makeQ .makeOpt:after {content:""; display:block; clear:both;}
+    .boardArea .boxStyle.makeQ .makeOpt .makeBtn{float:right; width:50px; height:35px; font-size:14px; line-height:35px;}
+    .boardArea .boxStyle.surveyForm{padding:50px 4% 30px;}
+    .boardArea .boxStyle.surveyForm .listDeleteBtn{position:absolute; right:0; top:0; width:30px; height:30px; background-size:100%;}
+    .boardArea .reviewType{padding:20px 3% 0; width:100%; float:none;}/* 2020-02-26 임의수정 */
+    .boardArea .orderBy{padding:30px 3% 0; width:100%; float:none; text-align:left;}/* 2020-02-26 임의추가 */
+    /* 2020-02-25 추가 */
+    .boardArea .boxStyle .qOption .list .right .listBox{width:calc(100% - 45px); width:-webkit-calc(100% - 45px)}
+    .boardArea .boxStyle .qOption .list .right .listBtn{width:35px; height:35px; background-size:10px auto;}
+    .boardArea .boxStyle .qOption .list .right .listBtn.listDelBtn, .boardArea .boxStyle .qOption .list .right .listBtn.listAddBtn{background-size:10px auto;}
+    .boardArea .boxStyle .qOption .list.etc .limitArea .inputBox{width:100%; margin-right:0;}
+    .boardArea .boxStyle .qOption .list.etc .limitArea select{width:100%; margin-top:5px;}
+    .boardArea .boxStyle .qOption .list.etc .limitArea .inputBox input{width:48%;}
+    .boardArea .boxStyle .qOption .list.etc .limitArea .inputBox span{width:4%;}
+    .boardArea .boxStyle .qOption .list.etc .right .chkArea .inputChkArea{width:100%;}
+    .boardArea .boxStyle .qOption .list.etc .right .chkArea .inputTxt{font-size:13px;}
+    .boardArea .boxStyle .qOption .list.etc .right .chkArea .inputTxt input{height:30px; padding:0 10px; font-size:13px;}
+    .boardArea .boxStyle.makeQ.typeZ select{width:calc(100% - 95px); width:-webkit-calc(100% - 95px)} /* 2020-03-06 임의변경 */
+    .boardArea .boxStyle .btnArea{position:relative; margin-bottom:15px; right:auto; top:auto; text-align:right;}
+    .boardArea .boxStyle .btnArea .whtBtn{height:27px; font-size:13px; line-height:25px}
+    /* // 2020-02-25 추가 */    
+    /* 2020-01-21 추가 */
+    .boardArea .reviewType{padding:20px 3% 0;}
+    .boardArea .revSquare{font-size:15px;}
+    .boardArea .tableType1 .mobile .titBox{display:table;}
+    .boardArea .tableType1 .mobile .titBox .revSquare{display:table-cell; float:none; width:15px; height:100%; margin:0; padding:0 10px 2px 0; text-indent:-9999px; overflow:hidden; vertical-align:middle;}
+    .boardArea .tableType1 .mobile .titBox .revSquare:after{position:relative;}
+    .boardArea .tableType1 .mobile .list .title{display:table-cell; vertical-align:middle}
+    
+    /* 2020-03-04 임의추가 */ /*검토진행 상태값 때문에 제인하기 타이틀 표시가 틀어지는 부분 수정*/
+    .boardArea .tableType1 .mobile.suggestion .titBox{display:inline !important;}
+    .boardArea .tableType1 .mobile.suggestion .titBox .revSquare:after{position:absolute !important;}
+    /* 2020-03-04 임의추가 */
+    
+    .boardArea .viewType .titArea .listTit .revSquare{width:auto; min-width:68px; padding:0 8px;}
+    .attachArea.staffDiv{width:94%; padding:20px 0 15px;}
+    .attachArea.staffDiv .tit{margin:0 0 12px 0; background-size:auto 12px;}
+    .attachArea.staffDiv .staffList{width:100%; margin-top:5px; padding-right:0;}
+    .attachArea.staffDiv .staffList p{min-height:auto; height:27px; margin:0 5px 5px 0; padding:0 10px; font-size:13px; line-height:25px}
+    .attachArea.staffDiv .staffBtn{top:15px; width:auto; height:auto; padding:5px 15px; font-size:14px; line-height:1;}
+    .attachArea.staffRepDiv{padding-bottom:20px;}
+    .attachArea.staffRepDiv .tit{margin-top:0; background-size:auto 12px;}
+    .attachArea.staffRepDiv .commentArea{margin-top:12px;}
+        .attachArea.staffRepDiv .commentArea .writeArea{padding:20px; display:none;} /* 2020-02-17 임의수정 */
+    .attachArea.staffRepDiv .commentArea .writeArea.on{display:block;} /* 2020-02-17 임의추가 */
+    /*.attachArea.staffRepDiv .commentArea .staffSelectBox{top:auto; bottom:15px;}*/ /* 2020-02-17 임의삭제 */
+    .attachArea.staffRepDiv .commentArea .schArea select{width:115px; height:25px; font-size:14px; line-height:23px;}
+    .attachArea.staffRepDiv .commentArea .schArea .okBtn{width:auto; height:25px; margin-left:5px; padding:0 7px; font-size:13px; line-height:25px;}
+    .attachArea.staffRepDiv .commentArea .commentList{padding:0 20px;}
+    .attachArea.staffRepDiv .commentArea .commentList .list{padding:15px 0 45px;}
+    
+    
+    .layerPop.staffPop{width:100%; height:100%;}
+    .layerPop.staffPop .popCon{padding:30px 3% 0;}
+    .layerPop.staffPop .lyTit .tit{font-size:17px;}
+    .layerPop.staffPop .staffPopList{height:45vh;}/* 2020-03-04 임의수정 */
+    .layerPop.staffPop .btnWrap{margin-top:25px;}
+    .layerPop.staffPop .btnWrap .smBlueBtn{min-width:85px; height:40px; padding:0 20px; line-height:40px;}
+    .layerPop.staffPop .staffPopList .list .chkType2 label{padding-left:20px; min-height:20px; line-height:20px; background-size:20px 20px; background-position:0}
+    .layerPop.staffPop .staffPopList .list .people span{font-size:14px; line-height:20px;}
+    /* // 2020-01-21 추가 */
+    /* 2020-02-03 추가 */
+    .layerPop.staffPop .staffPopList .list .people span.emailId{width:40%}
+    .layerPop.staffPop .staffPopList .list .people span.id{width:60%}
+    .layerPop.staffPop .schArea select{width:30%; border-right:0;}
+    .schArea .inputBox{width:70%}
+    .layerPop.staffPop .schArea .inputBox input{width:100%}
+    /* // 2020-02-03 추가 */    
+/* 2020-02-25 추가 */
+    /* 고급 문항등록 페이지 상위문항 결과값 승계 기능안내 시작 팝업 */
+    .layerPop.succPop .popCon .lyTit{padding-bottom:30px;}
+    .layerPop.succPop .boxListDiv{padding:20px 25px;}
+    .layerPop.succPop .boxListDiv .list .tit{display:block; width:100%; margin-bottom:10px; font-size:16px; line-height:22px;}
+    .layerPop.succPop .boxListDiv .list .con{display:block; width:100%;}
+    .layerPop.succPop .boxListDiv .list .con li{margin-bottom:5px; font-size:14px; line-height:22px;}
+    .layerPop.succPop .boxListDiv .list .con li:last-child{margin-bottom:0;}
+    .layerPop.succPop .boxListDiv .list .con .gryBox{margin:10px 0; padding:10px 15px;}
+    .layerPop.succPop .boxListDiv .list .con .gryBox .tit{display:block; width:100%; font-size:14px; line-height:22px;}
+    .layerPop.succPop .boxListDiv .list .con .gryBox .con{display:block; width:100%; font-size:14px; line-height:22px;}
+    .layerPop.succPop .boxListDiv .list .con .gryBox .con .redTxt{margin-top:5px; text-indent:-9px; padding-left:9px;}
+    .layerPop.succPop .boxListDiv .list .con .infoTxt{font-size:14px; line-height:24px;}
+    .layerPop.succPop .btnWrap{margin-top:20px;}
+    /* 고급 문항등록 페이지 보기카드 등록 팝업 */
+    .layerPop.regiPop .regiArea{padding:30px 0 0; }
+    .layerPop.regiPop .regiArea .listDiv{padding:15px 25px;}
+    .layerPop.regiPop .regiArea .listDiv .list{margin-bottom:20px;}
+    .layerPop.regiPop .regiArea .listDiv .list:last-child{margin-bottom:0;}
+    .layerPop.regiPop .regiArea .listDiv .list .tit{font-size:14px; margin-bottom:10px;}
+    .layerPop.regiPop .regiArea .listDiv .list .tit.vaT{padding-top:5px;}
+    .layerPop.regiPop .regiArea .listDiv .list .con{padding-left:15px;}
+    .layerPop.regiPop .regiArea .listDiv .list .con .inputTxt input{width:94px; margin-right:5px;}
+    .layerPop.regiPop .regiArea .fileChoice + .infoTxt{display:block; width:100%; font-size:14px; line-height:22px}
+    .layerPop.regiPop .regiArea .listDiv .list.mw100 .tit{display:block; width:100%;}
+    .layerPop.regiPop .regiArea .listDiv .list.mw100 .con{display:block; width:100%; padding-left:0;}
+    .layerPop.regiPop .btnWrap{margin-top:20px;}
+    /* //  2020-02-25 추가 */    
+
+    /* 고객센터 */
+    .centerArea{width:100%;}
+
+    /* 유틸  - 개인정보처리방침 */
+    .privacy .schArea{float:none;}
+    .privacy .schArea select{width:calc(100% - 65px);}
+    .privacy .schArea .inputBox button {margin-left:5px; width:60px; height:35px; font-size:14px;}
+    .privacy .termDiv .paragraph .tit{font-size:15px;}
+    .privacy .termDiv .paragraph .txt{font-size:14px; line-height:21px;}
+    .privacy .termDiv.agreement .paragraph{margin-top:15px;}
+    .privacy .termDiv.agreement .paragraph .txt{margin-top:15px;}
+
+    /* FAQ */
+    .faqList .list .acoBtn{padding:15px 40px 15px 45px; background-size:30px; background-position:left center;}
+    .faqList .list .acoBtn .category{float:none; margin-bottom:5px; width:100%;}
+    .faqList .list .acoBtn .tit{float:none; padding-right:0;}
+    .faqList .list .acoBtn .arr{right:3%; width:15px; height:8px; background-size:15px 8px;}
+    .faqList .list .acoBtn.on{background-size:30px; background-position:left center;}
+    .faqList .list .acoBtn.on .arr{right:3%; width:15px; height:8px; background-size:15px 8px;}
+    .faqList .list .acoCon{background-size:auto, 30px;}
+    .faqList .list .acoCon > div{padding:55px 15px 30px 15px;}
+    .faqList .list .acoCon > div:before{left:20px; top:25px; background-size:6px;}
+    .faqList .list .acoCon > div:after{left:35px; top:13px; background-size:auto 30px;}
+    .faqList .list .acoCon .tit{line-height:20px;}
+    .faqList .list .acoCon .grayBtn{margin-bottom:0;}
+    .faqList .list .acoCon .con ul{padding:10px 0 0;}
+    .faqList .list .acoCon .con ul li{margin-bottom:2px; font-size:14px; line-height:19px;}
+    .faqList .list .acoCon .con .fileDown{margin-top:15px;}
+    .faqList .list .acoCon .con .fileDown a{margin:1px 0 2px; min-height:30px; padding:5px 10px;}
+    .faqList .list .acoCon .con .fileDown a span{font-size:13px;}
+
+    /* 팝업 */    
+    .resarchPop{width:100%;}
+    .resarchPop .popCon {padding:0 3%;}
+    .resarchPop .popCon > div {padding-bottom:60px;}
+
+    .featurePop .popCon .lyTit{padding-bottom:20px;}
+    .featurePop .popCon .rschfeature .img{margin:20px 0;}
+    .featurePop .popCon .rschfeature .img img.pc{display:none;}
+    .featurePop .popCon .rschfeature .img img.mobile{display:inline-block;} 
+
+    .partRschPop .popCon .lyTit{padding-bottom:20px;}
+    .partRschPop .popCon .lyTit .tit{padding-top:40px; font-size:23px;}
+    .partRschPop .popCon .lyTit .vertiInfo{margin-top:15px;}
+    .partRschPop .popCon .lyCont .rschNoti{margin-bottom:30px; padding:20px;}
+    .partRschPop .popCon .lyCont .rschNoti .tCell{padding:0;}
+    .partRschPop .popCon .lyCont .rschNoti .tCell .txt{padding:52px 0 0 0; font-size:15px; line-height:20px; background-size:40px 41px; background-position:center top;}
+    .partRschPop .popCon .lyCont .rschNoti .tCell .txt br{display:none;}
+    .partRschPop .popCon .lyCont .agreeArea .tit{font-size:18px;}
+
+
+    .partRschPop .popCon .agreeDiv {margin-top:20px;}
+    .partRschPop .popCon .agreeDiv > div:first-child {padding:15px 3%;}
+    .partRschPop .popCon .agreeDiv .agreeList {font-size:14px;}
+    .partRschPop .popCon .agreeDiv .agreeList > section {padding:15px 3%;}
+    .partRschPop .popCon .agreeDiv .agreeList .agreeBox {margin-top:15px; padding:15px 3%; line-height:1.5;}
+    .partRschPop .popCon .agreeDiv .chkBox {padding:15px 3%;}
+    .partRschPop .popCon .agreeDiv .chkBox .tit {float:none; margin-bottom:15px;}
+    .partRschPop .popCon .agreeDiv .chkBox .chkArea {float:none;}
+    .partRschPop .popCon .agreeDiv .chkBox .chkArea > div {margin-right:10px;}
+    .partRschPop .popCon .vertiInfo{float:none;}
+    .partRschPop .popCon .popSubTit{font-size:15px;}
+    .partRschPop .rschStep .qArea{height:auto; padding-right:0; overflow-y:visible;}
+
+    .joinEndPop .endBox .iconBox{height:165px; background-size:100px auto;}
+    .joinEndPop .endBox .txt{padding:20px 3% 15px; font-size:15px; line-height:20px; word-break:keep-all;}
+    .joinEndPop .endBox .txt br{display:none;}
+    
+    /* 2019-11-20 추가 */
+    /* 자유게시판  */
+    .tableType1 .mobile .list .writerArea .peoBtn {}
+    .tableType1 .mobile .list .writerArea .writerTool:before {display:none}
+    .tableType1 .mobile .list .writerArea .writerTool {display:none}
+    .tableType1 .mobile .list .writerArea .transparentBg {display:none} 
+    .mobile .writerTool {top:20px;}
+    .mobile .writerTool .info dl {font-size:13px; line-height:26px;}
+    .mobile .writerTool .written {font-size:13px; line-height:18px;}
+
+    /* 게시글, 댓글 팝업 */
+    .writtenPop .elite {display:none}
+    .writtenPop .popTop .tab .tabB {width:calc(100%/2);}
+    .partialScroll .postedPopArea .popCon {height:unset; padding:0 0 85px; overflow-y:unset}
+
+    /* 게시글상세 팝업 */
+    .partialScroll .postsedDetailArea {height:100%; padding:0 0 100px; overflow-y:unset}
+    .partialScroll .postsedDetailArea .popTitle {display:none}
+    .partialScroll .postsedDetailArea .viewType .conArea {padding:15px 0}
+    .partialScroll .postsedDetailArea .viewType .conArea .conTxt .img > img {padding-bottom:10px;}
+    .partialScroll .postsedDetailArea .viewType .commentArea {padding-top:30px;}
+
+    /* 패널상세정보 팝업 */
+    .panelInfoPop .popTop .lyTit {display:none}
+    .panelInfoPop .popTop .tab .tabB {width:calc(100%/4);}
+    .panelInfoPop .popCon .tabCon .tit1 {display:none} 
+    .panelInfoPop .popCon .tabCon .tit2 {display:none}
+    /* //2019-11-20 추가 */
+    /* 2020-02-25 추가 */
+    /* 설문게시판 상세 고급 테이블 */
+    .btnWrap + .surveyListWrap{margin-top:40px;}
+    .surveyListWrap .tabBtn{width:100%; margin-bottom:0;}
+    .surveyListWrap .tabBtn:after{content:''; display:block; clear:both;}
+    .surveyListWrap .tabBtn a{display:block; float:left; width:50%; margin:0; padding:15px 0; font-size:14px;}
+    .surveyListWrap .tabBtn a:after{height:2px;}
+    .surveyListWrap .tabBtn a.on{color:#222}
+    .surveyListWrap .tabBtn a.on:after{display:block;}
+    .tableListArea .tableStyle1 .pc{display:none;}
+    .tableListArea .tableStyle1 .mobile{display:block;}
+    .tableStyle1 .qListArea{}
+    .tableStyle1 .qListArea .qListDiv .qTxt{width:100%; padding:11px 3%; background:#f5f5f5;}
+    .tableStyle1 .qListArea .qListDiv .qTxt .gubun{font-size:13px; color:#919191; line-height:21px;}
+    .tableStyle1 .qListArea .qListDiv .qTxt .tit{position:relative; padding-right:60px; font-family:"HyundaiSansTextKRMedium"; font-size:14px; color:#000; line-height:22px; word-break:keep-all;}
+    .tableStyle1 .qListArea .qListDiv .qTxt .tit .num{display:block; position:absolute; bottom:4px; right:0; width:60px; font-family:"HyundaiSansTextKRRegular"; text-align:right;}
+    .tableStyle1 .qListArea .qListDiv .aTxt{width:100%; padding:16px 3%; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; background:#fff;}
+    .tableStyle1 .qListArea .qListDiv .aTxt p{position:relative; padding-right:60px; font-family:"HyundaiSansTextKRMedium"; font-size:14px; color:#555; line-height:22px; word-break:keep-all;}
+    .tableStyle1 .qListArea .qListDiv .aTxt .num{display:block; position:absolute; bottom:4px; right:0; width:60px; font-family:"HyundaiSansTextKRRegular"; text-align:right;}
+    .tableStyle1 .qListArea .qListDiv .aTxt .grayBtn.small{font-size:13px;}
+    .tableType1 .chkList .list{width:100%; padding:16px 3%; overflow:hidden;}
+    .tableType1 .chkList .list .chkType2{float:left; width:30px; margin-bottom:0;}
+    .tableType1 .chkList .list .conD{float:left; width:calc(100% - 30px); width:-webkit-calc(100% - 30px)}
+    .tableType1 .chkList .list .conD .name{font-size:16px; color:#000; line-height:22px;}
+    .tableType1 .chkList .list .conD .email{font-size:14px; color:#555; line-height:22px;}
+    /* // 2020-02-25 추가 */
+}
+
+@media screen and (max-width:350px) {/* 아이폰5/se일 때 */
+    .labInfo .topArea .infoArea .imgArea{width:65px; height:60px;}
+    .labInfo .topArea .infoArea .txtArea{width:calc(93% - 65px);}   
+
+    .partRschPop .vertiInfo p{font-size:12px;}
+}
+

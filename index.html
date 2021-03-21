@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ko">
+<head>
+        <meta charset="utf-8" />
+        <title>H-ear</title>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1.0,minimum-scale=1.0,target-densitydpi=medium-dpi, viewport-fit=cover" />
+        <link rel="shortcut icon" type="image/x-icon" href="https://hear.hyundai.com/common/images/favicon.ico" />
+        <link rel="stylesheet" href="./css/common.css" />
+        <link rel="stylesheet" href="./css/swiper.min.css" />
+        <link rel="stylesheet" href="./css/hear_style.css" />
+        <script type="text/javascript" src="./js/jquery-1.8.2.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.mCustomScrollbar.js"></script>
+        <script type="text/javascript" src="./js/swiper.min.js"></script>
+        <script type="text/javascript" src="./js/main.js"></script>        
+    </head>
+    <body>
+       <!--gnb-->
+       <div id="header" class="main">
+        <div class="inner">
+            <h1><a href="index.html"><img src="./images/logo.png" alt="H-ear 로고" /></a></h1>
+            <div class="gnb">
+                <div><a href="#" class="oneD  " id="Intro"><span>MENU1</span> <span class="on">메뉴1</span></a></div>
+                <div><a href="#" class="oneD  " id="Labs"><span>MENU2</span> <span class="on">메뉴2</span></a></div>
+                <div><a href="#" class="oneD  " id="Contents"><span>MENU3</span> <span class="on">메뉴3</span></a></div>
+                <div><a href="#" class="oneD  " id="Event"><span>MENU4</span> <span class="on">메뉴4</span></a></div>
+                <div><a href="#" class="oneD  " id="Notice"><span>MENU5</span> <span class="on">메뉴5</span></a></div>
+            </div>
+            
+            <div class="util">
+                <a href="#" id="loginBtn">로그인</a>
+                <a href="#">마이페이지</a>
+                <a href="#" class="" >알림함</a>
+            </div>
+        </div>
+        <!-- 웹 메뉴  -->
+        
+        <!-- 모바일 메뉴 -->
+        <div class="mMenuArea">
+            <a href="javascript:" class="mMenuBtn"></a>
+            <div class="menuDiv">
+                <div class="topDiv">
+                    <a href="https://hear.hyundai.com/usersgateway/getLogin.do">로그인</a>
+                    <a href="https://hear.hyundai.com/my-page/main/index.do">마이페이지</a>
+                    <a href="https://hear.hyundai.com/my-page/myAlarmInfo.do" class="" >알림함</a>
+                </div>
+                <div class="bottomDiv">
+                    <!-- 로그인 전 -->
+                    <div class="beforeDiv">
+                        <p class="loginT"><a href="https://hear.hyundai.com/usersgateway/getLogin.do">로그인 해주시기 바랍니다.</a></p>
+                    </div>
+                    <!-- // 로그인 전 -->
+                    <!-- 로그인 후 -->
+                    <!-- // 로그인 후 -->
+                    <div class="gnbDiv">
+                        <div>
+                                <a href="https://hear.hyundai.com/coa/hearAbout.do" class="oneD noTwoD " id="Intro"><span>소개</span> </a>
+                                 </div>
+                          <div>
+                                <a href="https://hear.hyundai.com/Labs/index.do" class="oneD noTwoD " id="Labs"><span>연구실</span> </a>
+                                 </div>
+                          <div>
+                                <a href="https://hear.hyundai.com/communityid/HCOLUMN/main-index.do" class="oneD noTwoD " id="Contents"><span>자료실</span> </a>
+                                 </div>
+                          <div>
+                                <a href="https://hear.hyundai.com/communityid/EVENT/index.do" class="oneD noTwoD " id="Event"><span>이벤트</span> </a>
+                                 </div>
+                          <div>
+                                <a href="https://hear.hyundai.com/communityid/NOTICE/index.do" class="oneD noTwoD " id="Notice"><span>공지사항</span> </a>
+                                 </div>
+                          </div>
+                </div>
+                <a href="javascript:" class="closeBtn"></a>
+            </div>
+        </div>
+        <!-- 모바일 메뉴 -->
+    </div>
+    <!-- //header -->
+       <!--slider-->
+       <div  data-controller="controller/COCommonController controller/mna/MNAMainIndexController">
+        <div class="visArea">           
+            <!-- mainV -->
+            <div class="mainV swiper-container">
+                <div class="swiper-wrapper"><!-- 2019-02-20 통이미지로 수정 -->
+                    <a href="#" class="swiper-slide" target="_self">
+                        <img src="./images/slide1.png" alt="" class="pc"><!-- pc 버전 -->
+                        <img src="./images/slide1.png" alt="라면 맛 좀 아는 H-ear 패널이라~면?" class="mobile"><!-- mobile 버전 -->
+                    </a>
+                    <a href="#" class="swiper-slide" target="_self">
+                        <img src="./images/slide2.png" alt="" class="pc"><!-- pc 버전 -->
+                        <img src="./images/slide2.png" alt="Hi, Mobile Lab 연결 배너" class="mobile"><!-- mobile 버전 -->
+                    </a>
+                    <a href="#" class="swiper-slide" target="_self">
+                        <img src="./images/slide3.png" alt="" class="pc"><!-- pc 버전 -->
+                        <img src="./images/slide3.png" alt="주간 우수 아이디어 좋아요 패널 혜택 안내" class="mobile"><!-- mobile 버전 -->
+                    </a>
+                    </div><!-- //2019-02-20 통이미지로 수정 -->
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <!-- //mainV -->
+            
+            <!-- loginDiv -->
+            <div class="inner">
+                <div class="loginDiv">
+                    <!-- 로그인 전 화면 시작 -->
+                    <div class="beforeDiv" style=";">
+                        <div class="inner">
+                            <div class="formDiv">
+                            <form id="frm" name="frm" method="post" action="https://hear.hyundai.com/usersgateway/setLogin.do">
+                                <div class="loginInput">
+                                    <div class="id">
+                                        <input type="text" placeholder="아이디(이메일)를 입력해주세요" class="" id="id" name="id" />
+                                    </div>
+                                    <div class="password">
+                                        <input type="password" placeholder="비밀번호를 입력해주세요" class=""  id="password" name="password"  autocomplete="off"/>
+                                    </div>
+                                </div>
+                                <p class="chkType1">
+                                    <input type="checkbox" id="chk1" name="saveid"  onclick="confirmSave(this)">
+                                    <label for="chk1">아이디 저장</label>
+                                </p>
+                            </form>
+                            </div>
+                            <div class="btnArea">
+                                <a href="javascript:" id="loginBtn" class="loginBtn">로그인</a>
+                                <a href="javascript:" id="joinBtn"  class="joinBtn">회원가입</a>
+                            </div>
+                            <div class="linkDiv">
+                                <a href="javascript:" id="idFind">아이디(이메일) 찾기</a>
+                                <a href="javascript:" id="pwdFind">비밀번호 찾기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 로그인 전 화면 끝 -->
+                    <!-- 로그인 후 화면 시작 / tab -->
+                    </div>
+            </div>
+            <!-- //loginDiv -->
+        </div>
+        <!-- //visArea -->
+    </div>
+    </body>
+
+</html>

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&amp;display=swap&amp;subset=korean'); /* 2019-12-02 추가 */
+
+@font-face{
+	font-family:"HyundaiSansTextKRRegular";
+	src:url('../font/HyundaiSansTextKRRegular.woff') format('woff');
+}
+
+@font-face{
+	font-family:"HyundaiSansTextKRMedium";
+	src:url('../font/HyundaiSansTextKRRegular.woff') format('woff');
+}
+
+@font-face{
+	font-family:"HyundaiSansTextKRBold";
+	src:url('../font/HyundaiSansTextKRBold.woff') format('woff');
+}
+
+
+
+
+@keyframes cursor{ 
+    0%{border-right: 1px solid #fff} 
+    50%{border-right: 1px solid #000} 
+    100%{border-right: 1px solid #fff}
+}
+*{margin:0; padding:0; box-sizing:border-box; zoom:100%;}
+html{width:100%; height:100%}
+body{position:relative; font-family:'HyundaiSansTextKRRegular', sans-serif; font-size:16px; letter-spacing:-0.2px; color:#555; height:100%; -webkit-text-size-adjust:100%; -moz-text-size-adjust:100%; -ms-text-size-adjust:100%; line-height:1;}
+body,div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p,form,fieldset,table,tr,th,td{margin:0; padding:0}
+ul,ol,li{list-style:none}
+img, fieldset{border:none; vertical-align:top}
+legend, caption{position:absolute; top:-9999px; left:-9999px; z-index:-1}
+textarea, button{vertical-align:middle} 
+input, select{vertical-align:middle; background:#fff; border:1px solid #e5e5e5; font-family:'HyundaiSansTextKRRegular', sans-serif; color:#555; border-radius:0; font-size:16px; letter-spacing:-0.2px;}
+input{padding:3px 20px; height:32px}
+input::placeholder {color:#919191;}
+textarea::placeholder {color:#919191; font-size:16px;}
+option{padding:3px 10px;}
+input[type="radio"],input[type="checkbox"] {border:0; padding:0; height:auto; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;}
+input[type="password"] {height:50px; border:1px solid #e5e5e5; color:#555; background:#fff; -webkit-appearance: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;}
+input[type="text"] {width:100%; height:50px; background:#fff; color:#555;  -webkit-appearance: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;}
+input[type="tel"] {color:#555; -webkit-appearance: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;}
+input[type="file"] {color:#555; -webkit-appearance: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;}
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {-webkit-appearance: none; margin: 0;}
+select{padding:5px 30px 5px 10px; width:135px; height:50px; padding:0 20px; background:#fff url(../images/sch_arr_icon.png) right 20px center no-repeat; -webkit-appearance:none; -moz-appearance:none; appearance:none;}
+select::-ms-expand {display: none;}
+a{text-decoration:none;color:#555;}
+
+/* header */
+#header {position:relative; width:100%; height:85px; background:#fff; border-bottom:1px solid #e5e5e5;}
+#header:after {content:""; display:block; clear:both;}
+#header .inner {position:relative;}
+#header h1 {position:absolute; top:22px; left:0;}
+#header h1 img {max-width:100%;}
+#header .gnb {margin:0 auto; width:600px; text-align:center;}
+#header .gnb:after {content:""; display:block; clear:both;}
+#header .gnb > div {position:relative; float:left; display:block; width:120px; vertical-align:top;}
+#header .gnb > div .oneD {display:block; padding:33px 0; font-family:'HyundaiSansHeadKRMedium', sans-serif; font-size:19px; color:#000;}
+/* 주석 2019-07-19  임의추가 */
+#header .gnb > div .oneD.new:after{content:'N'; margin-left:3px; font-family:'HyundaiSansHeadKRBold', sans-serif; color:#e63312; font-size:14px;}
+/* 주석 2019-07-19  임의추가 */
+#header .gnb > div .oneD .on {display:none;}
+#header .gnb > div a:hover span.on{display: inline-block;}
+#header .gnb > div a:hover span:first-child{display: none;}
+#header .gnb > div .twoD {position:absolute; top:calc(100% - 3px); left:0; z-index:10; display:none; padding:30px 0 40px; width:100%; background:#fff; border:1px solid #e5e5e5; border-top:3px solid #00aad2;}
+#header .gnb > div .twoD a {display:block; margin-bottom:20px; color:#000;}
+#header .gnb > div .twoD a:last-child {margin-bottom:0;}
+#header .gnb > div .twoD a:hover {color:#00aad2;}
+#header .btnBack{display:none;}
+#header.main {border-bottom:0;}
+#header.main .gnb > div .twoD {border:none; border-top:3px solid #00aad2;}
+#header.noLine {border-bottom:0;}
+
+#header .util {position:absolute; top:32px; right:0;}
+#header .util a {position:relative; display:inline-block; padding:0 10px; font-family:'HyundaiSansTextKRMedium', sans-serif;}
+#header .util a:after {content:""; position:absolute; top:50%; right:0; transform:translateY(-50%); display:block; width:1px; height:12px; background:#ddd;}
+#header .util a:last-child {padding-right:0}
+#header .util a:last-child.on {position:relative; padding-right:15px;}
+#header .util a:last-child.on:before{content:"N"; display:block; position:absolute; top:0; right:0; font-family:'HyundaiSansHeadKRBold', sans-serif; font-size:14px; line-height:16px; color:#e63312;}
+#header .util a:last-child:after {display:none;} 
+#header .mMenuArea {display:none;}
+
+
+.subWrap {padding-bottom:140px;}
+.ovF {overflow:hidden;}
+.clear:after{content:''; display:block; clear:both;}
+.blind{width:0; height:0; text-indent:-9999px; font-size:0;}
+.inner {width:1180px; margin:0 auto;}
+.blackBg {display:none; position:absolute; top:0; left:0; z-index:10; width:100%; height:100%; background:rgba(0,0,0,0.7);
+	-webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
